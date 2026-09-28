@@ -14,16 +14,22 @@ Par ailleurs, ce site éviterait certains déplacements inutiles si le livre rec
 Ce projet offre une alternative plus sociale aux plateformes entièrement numériques de livres audio ou d’ebooks puisqu’il décourage l’isolement en poussant les utilisateurs à se rendre en médiathèque et ainsi à participer à la vie de leur communauté locale. Il favorise l'utilisation des ressources municipales accessibles à tous. C’est également une solution qui est plus accessible pour les seniors ou les personnes n’ayant pas un accès facile à Internet, car ce site pourrait être disponible directement à l’intérieur des médiathèques, avec si nécessaire l’aide des bibliothécaires pour accompagner son utilisation. Enfin, au niveau de l’impact environnemental, le stockage et partage d’un seul livre déjà produit, est souvent préférable au stockage en ligne d’un ebook. De plus, ces derniers peuvent demander la production de terminaux spécialisés afin de les lire. ([Source : librinova](https://www.librinova.com/blog/produire-un-ebook-est-il-plus-ecologique-quimprimer-un-livre-papier/)). 
 Nous connaissons en grande partie l'impact environnemental d'un livre neuf qui est autour de 1,3kg de CO2 venant des différentes étapes de la conception ([Source : Recyclivre](https://www.recyclivre.com/blog/actualites/infographie-le-cycle-de-vie-dun-livre/)). 
 
-## Scénario 
+## Scénario d'usage et impacts
 
-Scénario : Un utilisateur veut chercher un livre
+**A MODIFIER
+Nous faisons l'hypothèse que le journal est lu plusieurs fois dans la journée lors de moments de pause de quelques dizaines de minutes (dans les transports en commun, après le repas de midi, avant de se coucher, etc.). Pour cette raison, nous prendrons en compte dans notre scénario la lecture de deux articles l'un à la suite de l'autre, afin d'apprécier l'effet bénéfique du cache.
+
+Par ailleurs nous distinguerons la lecture des articles du jour et ceux d'une rubrique (Politique, Environnement, etc.), plus spécifiques mais possiblement plus anciens.
+A MODIFIER**
+
+### Scénario : Un utilisateur veut chercher un livre
 1)	 Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
 2)	Il entre dans la barre de recherche du site le titre du livre 
 3)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
 4)	Il entre le nom d'un autre livre dans la barre de recherche
 5)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
 
-Scénario : Un utilisateur veut réserver un livre 
+### Scénario : Un utilisateur veut réserver un livre 
 1)	Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
 2)	Il entre dans la barre de recherche du site le titre du livre 
 3)	Il parcourt la liste des livres et clique sur celui qu'il veut 
@@ -33,6 +39,23 @@ Scénario : Un utilisateur veut réserver un livre
 7)	Il parcourt la liste des livres et clique sur celui qu'il veut
 8)	Il lit les informations et repère les médiathèques où le livre est accessible 
 9)	Il réserve le livre dans une médiathèque, en demandant à ce qu'il soit apporté à sa médiathèque de quartier s'il n'y est pas disponible
+
+## Impact de l'exécution des scénarios auprès de différents services concurrents
+
+L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www.ecoindex.fr/comment-ca-marche/), [Octo](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex), [GreenIT](https://github.com/cnumr/GreenIT-Analysis/blob/acc0334c712ba68939466c42af1514b5f448e19f/script/ecoIndex.js#L19-L44)) en fonction du positionnement de cette page parmi les pages mondiales concernant :
+- le nombre de requêtes lancées,
+- le poids des téléchargements,
+- le nombre d'éléments du document.
+- 
+Nous avons choisi de comparer l'impact des scénarios sur les services de différents réseaux de médiathèques : [médiathèques du Val d'Yerres-Val de Seine](https://bibliotheques.vyvs.fr/accueil), [bibliothèques de Paris](https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx), [bibliothèque universitaire de Reims](https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/?), [médiathèque Jacques Chirac](https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls).
+
+| Service                             | Score | Classe | Détails |
+| ----------------------------------- | ----- | ------ | ------- |
+| Val d'Yerres - Val de Seine         |       |  G ?   |   ...   |
+| Bibliothèques de Paris              |       |  G ?   |   ...   |
+| Bibliothèque universitaire de Reims |       |  G ?   |   ...   |
+| Médiathèque Jacques Chirac          |       |  G ?   |   ...   |
+
 
 ## Evaluation bruts des impacts 
 
