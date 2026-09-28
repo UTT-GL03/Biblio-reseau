@@ -16,11 +16,9 @@ Nous connaissons en grande partie l'impact environnemental d'un livre neuf qui e
 
 ## Scénario d'usage et impacts
 
-**A MODIFIER
-Nous faisons l'hypothèse que le journal est lu plusieurs fois dans la journée lors de moments de pause de quelques dizaines de minutes (dans les transports en commun, après le repas de midi, avant de se coucher, etc.). Pour cette raison, nous prendrons en compte dans notre scénario la lecture de deux articles l'un à la suite de l'autre, afin d'apprécier l'effet bénéfique du cache.
+Nous faisons l'hypothèse que les utilisateurs peuvent fréquemment rechercher plusieurs livres. Pour cette raison, nous prendrons en compte dans notre scénario la recherche de deux livres l'un à la suite de l'autre, afin d'apprécier l'effet bénéfique du cache.
 
-Par ailleurs nous distinguerons la lecture des articles du jour et ceux d'une rubrique (Politique, Environnement, etc.), plus spécifiques mais possiblement plus anciens.
-A MODIFIER**
+Par ailleurs nous distinguerons la réservation d'un livre de la recherche simple de l'existence d'un livre.
 
 ### Scénario : Un utilisateur veut chercher un livre
 1)	 Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
@@ -49,12 +47,12 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www
 - 
 Nous avons choisi de comparer l'impact des scénarios sur les services de différents réseaux de médiathèques : [médiathèques du Val d'Yerres-Val de Seine](https://bibliotheques.vyvs.fr/accueil), [bibliothèques de Paris](https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx), [bibliothèque universitaire de Reims](https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/?), [médiathèque Jacques Chirac](https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls).
 
-| Service                             | Score | Classe | Détails |
-| ----------------------------------- | ----- | ------ | ------- |
-| Val d'Yerres - Val de Seine         |       |  G ?   |   ...   |
-| Bibliothèques de Paris              |       |  G ?   |   ...   |
-| Bibliothèque universitaire de Reims |       |  G ?   |   ...   |
-| Médiathèque Jacques Chirac          |       |  G ?   |   ...   |
+| Service                             | Score (sur 100) | Classe | Détails des mesures |
+| ----------------------------------- | --------------- | ------ | ------------------- |
+| Val d'Yerres - Val de Seine         |                 |  G ?   |   ...               |
+| Bibliothèques de Paris              |                 |  G ?   |   ...               |
+| Bibliothèque universitaire de Reims |                 |  G ?   |   ...               |
+| Médiathèque Jacques Chirac          |                 |  G ?   |   ...               |
 
 
 ## Evaluation bruts des impacts 
