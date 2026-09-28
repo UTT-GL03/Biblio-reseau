@@ -13,3 +13,27 @@ Par ailleurs, ce site éviterait certains déplacements inutiles si le livre rec
 
 Ce projet offre une alternative plus sociale aux plateformes entièrement numériques de livres audio ou d’ebooks puisqu’il décourage l’isolement en poussant les utilisateurs à se rendre en médiathèque et ainsi à participer à la vie de leur communauté locale. Il favorise l'utilisation des ressources municipales accessibles à tous. C’est également une solution qui est plus accessible pour les seniors ou les personnes n’ayant pas un accès facile à Internet, car ce site pourrait être disponible directement à l’intérieur des médiathèques, avec si nécessaire l’aide des bibliothécaires pour accompagner son utilisation. Enfin, au niveau de l’impact environnemental, le stockage et partage d’un seul livre déjà produit, est souvent préférable au stockage en ligne d’un ebook. De plus, ces derniers peuvent demander la production de terminaux spécialisés afin de les lire. ([Source : librinova](https://www.librinova.com/blog/produire-un-ebook-est-il-plus-ecologique-quimprimer-un-livre-papier/)). 
 Nous connaissons en grande partie l'impact environnemental d'un livre neuf qui est autour de 1,3kg de CO2 venant des différentes étapes de la conception ([Source : Recyclivre](https://www.recyclivre.com/blog/actualites/infographie-le-cycle-de-vie-dun-livre/)). 
+
+## Scénario 
+
+Scénario : Un utilisateur veut chercher un livre
+1)	 Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
+2)	Il entre dans la barre de recherche du site le titre du livre 
+3)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
+4)	Il entre le nom d'un autre livre dans la barre de recherche
+5)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
+
+Scénario : Un utilisateur veut réserver un livre 
+1)	Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
+2)	Il entre dans la barre de recherche du site le titre du livre 
+3)	Il parcourt la liste des livres et clique sur celui qu'il veut 
+4)	Il lit les informations et repère les médiathèques où le livre est accessible 
+5)	Il réserve le livre dans une médiathèque, en demandant à ce qu'il soit apporté à sa médiathèque de quartier s'il n'y est pas disponible
+6)	Il entre le nom d'un autre livre dans la barre de recherche
+7)	Il parcourt la liste des livres et clique sur celui qu'il veut
+8)	Il lit les informations et repère les médiathèques où le livre est accessible 
+9)	Il réserve le livre dans une médiathèque, en demandant à ce qu'il soit apporté à sa médiathèque de quartier s'il n'y est pas disponible
+
+## Evaluation bruts des impacts 
+
+## Evaluation des impacts 
