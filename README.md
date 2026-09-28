@@ -40,11 +40,11 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www
 - le nombre de requêtes lancées,
 - le poids des téléchargements,
 - le nombre d'éléments du document.
-- 
+
 Nous avons choisi de comparer l'impact des scénarios sur les services de plusieurs médiathèques et réseaux de médiathèques : [médiathèques du Val d'Yerres-Val de Seine](https://bibliotheques.vyvs.fr/accueil), [bibliothèques de Paris](https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx), [bibliothèque universitaire de Reims](https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/?), [médiathèque Jacques Chirac](https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls).
 
 | Service                             | Score (sur 100) | Classe | Détails des mesures |
-| ----------------------------------- | --------------- | ------ | ------------------- |
+| :----------------------------------- | ---------------: | :------: | :-------------------: |
 | Val d'Yerres - Val de Seine         |                 |  G ?   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)               |
 | Bibliothèques de Paris              |                 |  G ?   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)               |
 | Bibliothèque universitaire de Reims |                 |  G ?   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)               |
