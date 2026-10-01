@@ -53,7 +53,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.20 (soit 4 
 ### Page 4 : page Sortie cinéma (https://bibliotheques.paris.fr/cinema/)
 
 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
-|:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
+|:--------:|:--------:|:--------:|:------:|:------------:|:-----------------------:|:-------------:|
 | F        | 12.56    | 4.12cl   |2.75    |  138         |      10715              |    2207       |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.20 (soit 4 pack d'eau)
