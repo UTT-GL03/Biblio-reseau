@@ -30,6 +30,7 @@ L'analyse indiquée a été effectuée le mardi 29 septembre 2026, elle est susc
 | D        | 46.38    | 3.11cl   |2.07    |  111         |      43859              |    755        |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 31.10 (soit 4 pack d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.07
 
 ### Page 2 : page Agenda (https://mediatheque-jacques-chirac.fr/agenda/)
@@ -39,6 +40,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 31.10 (soit 4 
 | D        | 47.85    | 3.06cl   |2.04    |  103         |      8981               |    711        |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.60 (soit 3 pack d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.04
 
 ### Page 3 : page Catalogue (https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?p=*&v=*)
@@ -48,6 +50,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.60 (soit 3 
 | B        | 71.72    | 2.35cl   |1.57    |  68          |      4641               |    304        |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 25.30 (soit 2 pack d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.57
 
 ### Page 4 : page Patrimoine (https://mediatheque-jacques-chirac.fr/patrimoine/)
@@ -57,6 +60,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 25.30 (soit 2 
 | C        | 57.90    | 2.76cl   |1.84    |  87          |      15372              |    538        |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 27.60 (soit 2 pack d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.84 
 
 ### Page 5 : page Réseau des bibliothèques (https://mediatheque-jacques-chirac.fr/le-reseau-des-bibliotheques/)
@@ -66,6 +70,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 27.60 (soit 2 
 | E        | 39.62    | 3.31cl   |2.21    |  162         |      35894              |    798        |
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.31 (soit 3 pack d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.21
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
@@ -82,6 +87,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.31 (soit 3 
 
 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.22 (soit 4 packs d'eau)
+
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68
 
 ### Parcours 2 : 
