@@ -1,6 +1,6 @@
 # Déclaration environnementale du site web de la bibliothèque de Paris 
 Mesure effectuée le mardi 29 septembre 2026.
-Lien : https://bibliotheques.paris.fr/ 
+Lien : https://www.univ-reims.fr/bu/
 
 ## Niveau d'écoconception du site 
 Sans l'application, il est difficile d'avoir le niveau moyen du site. Nous allons donc directement passé aux méthodes d'évaluations.
@@ -23,64 +23,64 @@ Consommation d'eau (exprimée en litres) et émission de GES (kilos CO2e) liée 
 L'analyse indiquée a été effectuée le Mon Sep 29 2025, elle est susceptible d'évoluer : la quantification des impacts environnementaux présentée ci-dessous est une photographie réalisée à un instant T.
 
 ## Evaluation de l'impact des 5 pages les plus visitées du site 
-### Page 1 : page d'accueil (https://bibliotheques.paris.fr/)
+### Page 1 : page d'accueil (https://www.univ-reims.fr/bu/)
 
 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
 |:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
-| E        | 29.74    | 3.61cl   |2.41    |  103         |      13396              |    2198       |
+| D        | 42.41    | 3.23cl   |2.15    |  54          |      5192               |    895        |
 
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 36.10 (soit 4 pack d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 32.30 (soit 3 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.15 
 
-### Page 2 : page Service et Infos Pratiques (https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx)
+### Page 2 : page Culture (https://www.univ-reims.fr/bu/culture/la-culture-a-la-bu/la-culture-a-la-bu,27902,45041.html)
 
 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
 |:--------:|:--------:|:--------:|:------:| :-----------:|:-----------------------:|:-------------:|
-| E        | 36.05    | 3.42cl   |2.28    |  60          |      5252               |    1208       |
+| C        | 60.31    | 2.69cl   |1.79    |  43          |      2322               |    740        |
 
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.20 (soit 3 pack d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.28 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 26.90 (soit 2 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.79 
 
-### Page 3 : page de la bibliothèque numérique (https://bibliotheques.paris.fr/numerique/)
-
-| Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
-|:--------:|:--------:|:--------:|:------:|:------------:|:-----------------------:|:-------------:|
-| F        | 15.90    | 4.02cl   |2.68    |  127         |      16356              |    1614       |
-
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.20 (soit 4 pack d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68 (soit un trajet de 10 kms en voiture à énergie thermique).
-
-### Page 4 : page Sortie cinéma (https://bibliotheques.paris.fr/cinema/)
+### Page 3 : page de la bibliothèque numérique (https://www.univ-reims.fr/bu/bu-numerique/bu-numerique,9211,45273.html)
 
 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
 |:--------:|:--------:|:--------:|:------:|:------------:|:-----------------------:|:-------------:|
-| F        | 12.56    | 4.12cl   |2.75    |  138         |      10715              |    2207       |
+| D        | 49.25    | 3.02cl   |2.01    |  41          |      2410               |    1310       |
 
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.20 (soit 4 pack d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.75 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 30.20 (soit 3 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.01
 
-### Page 5 : page Agenda (https://bibliotheques.paris.fr/agenda/)
+### Page 4 : page Service (https://www.univ-reims.fr/bu/services/services-en-ligne,9217,19005.html)
+
+| Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
+|:--------:|:--------:|:--------:|:------:|:------------:|:-----------------------:|:-------------:|
+| C        | 62.29    | 2.63cl   |1.75    |  41          |      2307               |    694        |
+
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 26.30 (soit 2 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.75
+
+### Page 5 : page FAQ (https://www.univ-reims.fr/bu/foire-aux-questions/foire-aux-questions,21360,35482.html)
 
 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille de la page (ko)  | Taille du DOM |
 |:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
-| G        | 9.54     | 4.21cl   |2.81    |  479         |      26492              |    1503       |
+| D        | 54.32    | 2.87cl   |1.91    |  40          |      2354               |    1012       |
 
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 36.10 (soit 4 pack d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.70 (soit 2 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.91 
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
 ### Parcours 1 : Chercher un ouvrage 
 
-| Page                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
-|(https://bibliotheques.paris.fr/)                                               | E        | 29.74    | 3.61cl   |2.41    |  103         |      13396        |    2198       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | G        | 6.84     | 4.29cl   |2.86    |  204         |      17235        |    5675       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=pomme)           | F        | 17.33    | 3.98cl   |2.65    |  108         |      7844         |    1775       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | F        | 19.67    | 3.91cl   |2.61    |  82          |      6397         |    6097       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=loutre)          | F        | 18.21    | 3.95cl   |2.64    |  109         |      9703         |    1627       |
+| Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
+|:-----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
+|(https://www.univ-reims.fr/bu/)                                                            | D        | 42.41    | 3.23cl   |2.15    |  54          |      5192        |     895        |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=)  | F        | 16.47    | 4.01cl  |2.67     |  137         |      1973        |    10601       |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=)  | F        | 14.88    | 4.05cl  |2.70     |  150         |      3310        |    12810       |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=loutre&te=) | F        | 20.14    | 3.90cl   |2.60    |  126         |      2677        |    9230        |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=loutre&te=) | F        | 15.64    | 4.03cl   |2.69    |  150         |      3213        |    11246       |
 
 
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.40 (soit 4 packs d'eau)
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 38.44 (soit 4 packs d'eau)
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63
 
 ### Parcours 2 : 
