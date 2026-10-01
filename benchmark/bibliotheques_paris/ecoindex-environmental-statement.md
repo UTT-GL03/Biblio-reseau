@@ -3,11 +3,7 @@ Mesure effectuée le mardi 29 septembre 2026.
 Lien : https://bibliotheques.paris.fr/ 
 
 ## Niveau d'écoconception du site 
-Le site bloque les bots. Il est donc impossible d'utiliser le site EcoIndex pour faire une estimation moyenne du site. Cependant, nous pouvons utiliser l'extension pour avoir une idée de la note. Pour cela, nous ferons une analyse sur la page d'accueil. 
-Note : E 
-Note écoIdex : 29.74
-Eau (cl) : 3.61
-Émission de Gaz à Effet de Serre (GES) moyenne rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (équivalent de parcourir 10km avec une voiture)
+Sans l'application, il est difficile d'avoir le niveau moyen du site. Nous allons donc directement passé aux méthodes d'évaluations.
 
 ## Méthodes d'évaluation 
 Comme toute production numérique, ce site web a un impact environnemental que nous vous présentons sur cette page à l’aide d’indicateurs standardisés.
@@ -33,8 +29,8 @@ L'analyse indiquée a été effectuée le Mon Sep 29 2025, elle est susceptible 
 |:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
 | E        | 29.74    | 3.61cl   |2.41    |  103         |      13396              |    2198       |
 
-Consommation d'eau en cl : 3.61
-Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 36.10 (soit 4 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ### Page 2 : page Service et Infos Pratiques (https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx)
 
@@ -42,8 +38,8 @@ Consommation d'eau en cl : 3.61
 |:--------:|:--------:|:--------:|:------:| :-----------:|:-----------------------:|:-------------:|
 | E        | 36.05    | 3.42cl   |2.28    |  60          |      5252               |    1208       |
 
-Consommation d'eau en cl : 3.42
-Émission de GES (kilos CO2e) : 2.28 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.20 (soit 3 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.28 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ### Page 3 : page de la bibliothèque numérique (https://bibliotheques.paris.fr/numerique/)
 
@@ -51,8 +47,8 @@ Consommation d'eau en cl : 3.42
 |:--------:|:--------:|:--------:|:------:|:------------:|:-----------------------:|:-------------:|
 | F        | 15.90    | 4.02cl   |2.68    |  127         |      16356              |    1614       |
 
-Consommation d'eau en cl : 4.02
-Émission de GES (kilos CO2e) : 2.68 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.20 (soit 4 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ### Page 4 : page Sortie cinéma (https://bibliotheques.paris.fr/cinema/)
 
@@ -60,8 +56,8 @@ Consommation d'eau en cl : 4.02
 |:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
 | F        | 12.56    | 4.12cl   |2.75    |  138         |      10715              |    2207       |
 
-Consommation d'eau en cl : 4.12
-Émission de GES (kilos CO2e) : 2.75 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 41.20 (soit 4 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.75 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ### Page 5 : page Agenda (https://bibliotheques.paris.fr/agenda/)
 
@@ -69,8 +65,8 @@ Consommation d'eau en cl : 4.12
 |:-------- |:--------:| --------:|-------:| ------------:|------------------------:|--------------:|
 | G        | 9.54     | 4.21cl   |2.81    |  479         |      26492              |    1503       |
 
-Consommation d'eau en cl : 3.61
-Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 36.10 (soit 4 pack d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
 ### Parcours 1 : Chercher un ouvrage 
@@ -84,8 +80,8 @@ Consommation d'eau en cl : 3.61
 |(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=loutre)          | F        | 18.21    | 3.95cl   |2.64    |  109         |      9703         |    1627       |
 
 
-Consommation d'eau en cl : 3.94
-Émission de GES (kilos CO2e) : 2.63
+Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.40 (soit 4 packs d'eau)
+Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63
 
 ### Parcours 2 : 
 
