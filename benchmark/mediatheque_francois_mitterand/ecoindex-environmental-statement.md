@@ -74,7 +74,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.31 (soit 3 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.21
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage 
+### Parcours 1 : Chercher un ouvrage dont l'utilisateur connait le nom
 
 | Page                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------------------------------------------------------------:|:-------- |:--------:|:--------:|:------:|:-----------:|:-----------------:|:-------------:|
@@ -90,15 +90,16 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.22 (soit 4 
 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68
 
-### Parcours 2 : 
+### Parcours 2 : Chercher un ouvrage par mot clé
 
-| Page                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
-|(https://bibliotheques.paris.fr/)                                               | E        | 29.74    | 3.61cl   |2.41    |  103         |      13396        |    2198       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | G        | 6.84     | 4.29cl   |2.86    |  204         |      17235        |    5675       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=pomme)           | F        | 17.33    | 3.98cl   |2.65    |  108         |      7844         |    1775       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | F        | 19.67    | 3.91cl   |2.61    |  82          |      6397         |    6097       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=loutre)          | F        | 18.21    | 3.95cl   |2.64    |  109         |      9703         |    1627       |
+| Page                                                                                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
+|:----------------------------------------------------------------------------------------------------------------------------------------------:|:-------- |:--------:|:--------:|:------:|:-----------:|:-----------------:|:-------------:|
+|(https://portail.mediatheque-jacques-chirac.fr/)                                                                                                | D        | 46.38    | 3.11cl   |2.07    |  111        |      43859        |    755       |
+|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=home)                                                                   | B        | 71.72    | 2.35cl   |1.57    |  68         |      4641         |    304        |
+|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?sUrl=search&t=1790870526075&p=*&rtisearch=1&searchProfile=rapide#navigation) | E        | 30.95    | 3.57cl   |2.38    |  93         |      5466         |    2268       |
+|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=search&p=*#recordId=1.694035)                                           | D        | 49.26    | 3.02cl   |2.01    |  82         |      67           |    826        |
+|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?sUrl=search&t=1791205733275&p=*&rtisearch=1&searchProfile=rapide#navigation) | F        | 10.25    | 4.19cl   |2.79    |  158        |      9266         |    2790       |
+|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=search&p=*#recordId=1.819794)                                           | G        | 9.33.    | 4.22cl   |2.81    |  171        |      9283         |    2860      |  
 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
