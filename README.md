@@ -41,10 +41,33 @@ Nous avons choisi de comparer l'impact des scénarios sur les services de plusie
 
 | Service                             | Score (sur 100) | Classe |  Détails des mesures  |
 | :---------------------------------- | --------------: | :----: | :-------------------: |
-| Val d'Yerres - Val de Seine         |       25.8      |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
-| Bibliothèques de Paris              |     15.31       |  E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
-| Bibliothèque universitaire de Reims |     39.70       |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
-| Médiathèque Jacques Chirac          |     37.71       |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
+| Val d'Yerres - Val de Seine         |      25.8       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
+| Bibliothèques de Paris              |     15.31       |   F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
+| Bibliothèque universitaire de Reims |     39.70       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
+| Médiathèque Jacques Chirac          |     37.71       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
+
+Tab. 1 : Mesure de l'EcoIndex moyen de services de médiathèques et réseaux de médiathèques.
+
+Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex très faibles (E ou F).
+
+Dans le détail, les pages les plus mal classées sont les pages de recherche, qui incluent beaucoup d’éléments différents.
+
+## Modèle économique
+
+| Nombre d’habitants | Nombre de médiathèques | Montant de financement |  Quantité nécessaire pour financer un salaire  |
+| :----------------- | :--------------------- | ---------------------: | :---------------------------------------------: |
+| -30 000 habitants  | 1 médiathèque          |  |  |
+Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
 
+
+Les aides de l’État sont en baisses dernièrement, et les médiathèques ne sont pas la priorité des municipalités. Cependant, nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous pensons utiliser des échelons de financement venant des différentes municipalités dont la médiathèque participerait à notre site. Le financement dépendrait de la taille de la ville (nombre d’habitants) et de son nombre de médiathèques.
+
+_3507€ : salaire médian au coût total employeur._
+_on cherche quel financement demnder pour payer 1 personne au salaire médian_
+
+
+Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médoathèques.
+
+**SOURCER !!!!!!!!!!!!!!!!!!**
 
