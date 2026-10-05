@@ -69,7 +69,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.70 (soit 2 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.91 
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 2 : Un utilisateur veut chercher un livre par mot clé
+### Parcours 1 : Un utilisateur veut chercher un livre par mot clé
 
 | Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
