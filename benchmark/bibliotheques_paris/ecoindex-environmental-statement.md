@@ -69,21 +69,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 36.10 (soit 4 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage dont il connait le nom précis
-
-| Page                                                                                                 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:----------------------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
-|(https://bibliotheques.paris.fr/)                                                                     | E        | 29.74    | 3.61cl   |2.41    |  103         |      13396        |    2198       |
-|(https://bibliotheques.paris.fr/search.aspx)                                                          | G        | 6.84     | 4.29cl   |2.86    |  204         |      17235        |    5675       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=pomme&QUERY_LABEL=#/Detail/(query:(Id:'0_OFFSET_0',Index:1,NBResults:2156,PageRange:3,SearchQuery:(FacetFilter:%7B%7D,ForceSearch:!f,InitialSearch:!f,Page:0,PageRange:3,QueryGuid:'1cb70387-5ef8-43b7-88be-8f4ada736245',QueryString:pomme,ResultSize:50,ScenarioCode:CATALOGUE,ScenarioDisplayMode:display-standard,SearchGridFieldsShownOnResultsDTO:!(),SearchLabel:'',SearchTerms:pomme,SortField:!n,SortOrder:0,TemplateParams:(Scenario:'',Scope:Default,Size:!n,Source:'',Support:'',UseCompact:!f),UseSpellChecking:!n))))           | F        | 17.33    | 3.98cl   |2.65    |  108         |      7844         |    1775       |
-|(https://bibliotheques.paris.fr/search.aspx)                                                            | G        | 8.83    | 4.24cl   |2.82    |  163          |      13225        |    5602       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=pomme&QUERY_LABEL=#/Detail/(query:(Id:'5_OFFSET_0',Index:6,NBResults:2156,PageRange:3,SearchQuery:(FacetFilter:%7B%7D,ForceSearch:!f,InitialSearch:!f,Page:0,PageRange:3,QueryGuid:'615ea077-a229-49cf-9d8c-78c261431e5a',QueryString:pomme,ResultSize:50,ScenarioCode:CATALOGUE,ScenarioDisplayMode:display-standard,SearchGridFieldsShownOnResultsDTO:!(),SearchLabel:'',SearchTerms:pomme,SortField:!n,SortOrder:0,TemplateParams:(Scenario:'',Scope:Default,Size:!n,Source:'',Support:'',UseCompact:!f),UseSpellChecking:!n))))          | G        | 7.46     | 4.28cl   |2.85    |  299         |      20696        |    1803       |
-
-
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.40 (soit 4 packs d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63
-
-### Parcours 2 : Un utilisateur cherche un ouvrage par mot clé
+### Parcours 1 : Un utilisateur vaut chercher un livre par mot clé
 
 | Page                                                                                                 | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
@@ -97,6 +83,8 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 39.40 (soit 4 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
+### Parcours 2 : Un utilisateur veut chercher un livre avec son titre
 
+[Plus d’informations](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex.csv)
 
 
