@@ -73,21 +73,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 42.10 (soit 4 
 
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage dont l'utilisateur connait le nom 
-
-| Page                                                                                                       | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:----------------------------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
-|(https://bibliotheques.vyvs.fr/accueil)                                                                     | G        | 9.04     | 4.23cl   |  2.82  |  348      |      107706       |    28399      |
-|(https://bibliotheques.vyvs.fr/recherche)                                                                   | F        | 19.52     | 3.91cl  |3.61    |  95          |      5528         |    7154       |
-|(https://bibliotheques.vyvs.fr/recherche/viewnotice/clef/PATATE--LOUCHARDA--SEUILJEUNESSE-2017-1)           | D        | 46.50    | 3.11cl   |2.07    |  56          |      1721         |    1016       |
-|(https://bibliotheques.vyvs.fr/recherche)                                                                   | E        | 31.03    | 3.57cl   |2.38    |  96          |      6205         |    6833       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=loutre)                                      | D        | 45.13    | 3.15cl   |2.10    |  74          |      2794         |    1114       |
-
-
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.50 (soit 3 packs d'eau minérale).
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.50 (soit un trajet de 12 kms en voiture à énergie thermique).
-
-### Parcours 2 : Chercher un ouvrage par mot clé
+### Parcours 1 : Un utilisateur veut chercher un livre par mot clé
 
 | Page                                                                                                       | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
@@ -100,7 +86,8 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 34.50 (soit 3 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
+### Parcours 2 : Un utilisateur veut chercher un livre avec son titre
 
-
+[Plus d’informations](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex.csv)
 
 
