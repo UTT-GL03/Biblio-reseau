@@ -69,21 +69,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.70 (soit 2 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.91 
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage en connaissant son nom précis
-
-| Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:-----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
-|(https://www.univ-reims.fr/bu/)                                                            | D        | 42.41    | 3.23cl   |2.15    |  54          |      5192        |     895        |
-|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=)  | F        | 16.47    | 4.01cl  |2.67     |  137         |      1973        |    10601       |
-|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=)  | F        | 14.88    | 4.05cl  |2.70     |  150         |      3310        |    12810       |
-|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=loutre&te=) | F        | 20.14    | 3.90cl   |2.60    |  126         |      2677        |    9230        |
-|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=loutre&te=) | F        | 15.64    | 4.03cl   |2.69    |  150         |      3213        |    11246       |
-
-
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 38.44 (soit 4 packs d'eau)
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63
-
-### Parcours 2 : Chercher un ouvrage par mot clé
+### Parcours 2 : Un utilisateur veut chercher un livre par mot clé
 
 | Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
@@ -96,6 +82,8 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 38.44 (soit 4 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
 
+### Parcours 2 : Un utilisateur veut chercher un livre avec son titre
 
+[Plus d’informations](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex.csv)
 
 
