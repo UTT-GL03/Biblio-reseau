@@ -69,7 +69,7 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.70 (soit 2 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 1.91 
 
 ## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage 
+### Parcours 1 : Chercher un ouvrage en connaissant son nom précis
 
 | Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:-----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
@@ -83,15 +83,15 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 28.70 (soit 2 
 Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 38.44 (soit 4 packs d'eau)
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.63
 
-### Parcours 2 : 
+### Parcours 2 : Chercher un ouvrage par mot clé
 
-| Page                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:-------------:|
-|(https://bibliotheques.paris.fr/)                                               | E        | 29.74    | 3.61cl   |2.41    |  103         |      13396        |    2198       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | G        | 6.84     | 4.29cl   |2.86    |  204         |      17235        |    5675       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=pomme)           | F        | 17.33    | 3.98cl   |2.65    |  108         |      7844         |    1775       |
-|(https://bibliotheques.paris.fr/search.aspx)                                    | F        | 19.67    | 3.91cl   |2.61    |  82          |      6397         |    6097       |
-|(https://bibliotheques.paris.fr/search.aspx?SC=CATALOGUE&QUERY=loutre)          | F        | 18.21    | 3.95cl   |2.64    |  109         |      9703         |    1627       |
+| Page                                                                                      | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
+|:----------------------------------------------------------------------------------------:|:-------- |:--------:| :-------:|:------:| :-----------:|:-----------------:|:--------------:|
+|(https://www.univ-reims.fr/bu/)                                                           | D        | 42.41    | 3.23cl   |2.15    |  54          |      5192        |     895        |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=) | F        | 16.47    | 4.01cl  |2.67     |  137         |      1973        |    10601       |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=) | F        | 14.88    | 4.05cl  |2.70     |  150         |      3310        |    12810       |
+|(https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=) | F        | 23.40    | 3.80cl   |2.53    |  104         |      2625        |    10318       |
+|https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/search/results?qu=pomme&te=   | F        | 15.62    | 4.03cl   |2.69    |  150         |      3213        |    11246       |
 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
