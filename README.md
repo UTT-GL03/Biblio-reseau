@@ -17,23 +17,19 @@ Nous faisons l'hypothèse que les utilisateurs peuvent fréquemment rechercher p
 
 Par ailleurs nous distinguerons la réservation d'un livre de la recherche simple de l'existence d'un livre.
 
-### Scénario : Un utilisateur veut chercher un livre
-1)	 Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
-2)	Il entre dans la barre de recherche du site le titre du livre 
-3)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
-4)	Il entre le nom d'un autre livre dans la barre de recherche
-5)	Il parcourt la liste des livres et clique sur celui qu'il veut, il lit les informations 
-
-### Scénario : Un utilisateur veut réserver un livre 
+### Scénario : Un utilisateur veut chercher un livre par mot clé
 1)	Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
-2)	Il entre dans la barre de recherche du site le titre du livre 
-3)	Il parcourt la liste des livres et clique sur celui qu'il veut 
-4)	Il lit les informations et repère les médiathèques où le livre est accessible 
-5)	Il réserve le livre dans une médiathèque, en demandant à ce qu'il soit apporté à sa médiathèque de quartier s'il n'y est pas disponible
-6)	Il entre le nom d'un autre livre dans la barre de recherche
-7)	Il parcourt la liste des livres et clique sur celui qu'il veut
-8)	Il lit les informations et repère les médiathèques où le livre est accessible 
-9)	Il réserve le livre dans une médiathèque, en demandant à ce qu'il soit apporté à sa médiathèque de quartier s'il n'y est pas disponible
+2)	Il entre dans la barre de recherche du site le mot clé
+3)	Il parcourt la liste des livres et clique sur un livre qui l'intéresse, il lit les informations 
+4)	Il revient sur la page précédente
+5)	Il parcourt la liste des livres et clique sur un livre qui l'intéresse, il lit les informations 
+
+### Scénario : Un utilisateur veut chercher un livre avec son titre 
+1)	Un utilisateur se rend sur la page d'accueil du site par un favori (sans moteur de recherche). Si nécessaire, il donne son consentement. 
+2)	Il entre dans la barre de recherche du site le titre du livre
+3)	Il parcourt la liste des livres et clique sur le livre qu’il recherche, il lit les informations 
+4)	Il entre dans la barre de recherche du site le titre d’un autre livre
+5)	Il parcourt la liste des livres et clique sur un livre qu’il recherche, il lit les informations
 
 ## Impact de l'exécution des scénarios auprès de différents services concurrents
 L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www.ecoindex.fr/comment-ca-marche/), [Octo](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex), [GreenIT](https://github.com/cnumr/GreenIT-Analysis/blob/acc0334c712ba68939466c42af1514b5f448e19f/script/ecoIndex.js#L19-L44)) en fonction du positionnement de cette page parmi les pages mondiales concernant :
