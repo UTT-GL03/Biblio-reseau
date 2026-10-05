@@ -73,24 +73,9 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 33.31 (soit 3 
 
 Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.21
 
-## Evaluation de l'impact pour 2 scénarios utilisateurs 
-### Parcours 1 : Chercher un ouvrage dont l'utilisateur connait le nom
+## Evaluation de l'impact pour 2 scénarios utilisateurs
 
-| Page                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:-------- |:--------:|:--------:|:------:|:-----------:|:-----------------:|:-------------:|
-|(https://portail.mediatheque-jacques-chirac.fr/)                                                                                                | D         | 46.38    | 3.11cl   |2.07    |  111        |      43859        |    755        |
-|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=home)                                                                   | B        | 71.72    | 2.35cl   |1.57    |  68         |      4641         |    304        |
-|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?sUrl=search&t=1790870526075&p=*&rtisearch=1&searchProfile=rapide#navigation) | E        | 30.95    | 3.57cl   |2.38    |  93         |      5466         |    2268       |
-|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=search&p=*#recordId=1.694035)                                           | D        | 49.26    | 3.02cl   |2.01    |  82         |      67           |    826        |
-|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?sUrl=search&t=1790870683155&p=*&rtisearch=1&searchProfile=rapide#navigation) | F        | 17.01    | 3.99cl   |2.66    |  174        |      10466        |    1722       |
-|(https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls?surl=search&p=*#recordId=1.171221)                                           | F        | 14.48    | 4.07cl   |2.71    |  188        |      10560        |    2134       |  
-
-
-Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.22 (soit 4 packs d'eau)
-
-Émission de GES rapportée à 1 000 utilisateurs (kilos CO2e) : 2.68
-
-### Parcours 2 : Chercher un ouvrage par mot clé
+### Parcours 1 : Un utilisateur veut chercher un livre par mot clé
 
 | Page                                                                                                                                           | Grade    | EcoIndex | Eau      | C02    | Nb requêtes  | Taille page (ko)  | Taille du DOM |
 |:----------------------------------------------------------------------------------------------------------------------------------------------:|:-------- |:--------:|:--------:|:------:|:-----------:|:-----------------:|:-------------:|
@@ -103,6 +88,10 @@ Consommation d'eau rapportée à 1 000 utilisateurs (en litres) : 40.22 (soit 4 
 
 Consommation d'eau en cl : 3.61
 Émission de GES (kilos CO2e) : 2.41 (soit un trajet de 10 kms en voiture à énergie thermique).
+
+### Parcours 2 : Un utilisateur veut chercher un livre avec son titre
+
+[Plus d’informations](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex.csv)
 
 
 
