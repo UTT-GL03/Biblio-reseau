@@ -41,10 +41,10 @@ Nous avons choisi de comparer l'impact des scénarios sur les services de plusie
 
 | Service                             | Score (sur 100) | Classe |  Détails des mesures  |
 | :---------------------------------- | --------------: | :----: | :-------------------: |
-| Val d'Yerres - Val de Seine         |            |  G ?   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                           |
+| Val d'Yerres - Val de Seine         |       25.8      |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
 | Bibliothèques de Paris              |     15.31       |  E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
-| Bibliothèque universitaire de Reims |     39.70       |  E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
-| Médiathèque Jacques Chirac          |                 |  G ?   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
+| Bibliothèque universitaire de Reims |     39.70       |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
+| Médiathèque Jacques Chirac          |     37.71       |  F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
 
 
 
