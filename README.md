@@ -40,11 +40,11 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www
 Nous avons choisi de comparer l'impact des scénarios sur les services de plusieurs médiathèques et réseaux de médiathèques : [médiathèques du Val d'Yerres-Val de Seine](https://bibliotheques.vyvs.fr/accueil), [bibliothèques de Paris](https://bibliotheques.paris.fr/services-et-infos-pratiques.aspx), [bibliothèque universitaire de Reims](https://reimsscd.ent.sirsidynix.net.uk/client/fr_FR/default/?), [médiathèque Jacques Chirac](https://portail.mediatheque-jacques-chirac.fr/iguana/www.main.cls).
 
 | Service                             | Score (sur 100) | Classe |  Détails des mesures  |
-| :---------------------------------- | --------------: | :----: | :-------------------: |
-| Val d'Yerres - Val de Seine         |      25.8/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
-| Bibliothèques de Paris              |     15.31/100   |   F    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
-| Bibliothèque universitaire de Reims |     39.70/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
-| Médiathèque Jacques Chirac          |     37.71/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
+| :---------------------------------- | --------------: | :-----: | :-------------------: |
+| Val d'Yerres - Val de Seine         |      25.8/100   |  🟥 E  |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
+| Bibliothèques de Paris              |     15.31/100   |  🟪 F    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
+| Bibliothèque universitaire de Reims |     39.70/100   |  🟥 E  |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
+| Médiathèque Jacques Chirac          |     37.71/100   |  🟥 E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
 
 Tab. 1 : Mesure de l'EcoIndex moyen de services de médiathèques et réseaux de médiathèques.
 
