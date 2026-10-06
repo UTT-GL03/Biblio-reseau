@@ -63,6 +63,8 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
+Dans notre cas, notre proposition utiliserait certainement les subventions offerte par l'état, la région ou le département qui sont principalement données dans le cadre de projet ponctuel. 
+
 Les aides de l’État sont en baisses dernièrement, et les médiathèques ne sont pas la priorité des municipalités. Cependant, nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous pensons utiliser des échelons de financement venant des différentes municipalités dont la médiathèque participerait à notre site. Le financement dépendrait de la taille de la ville (nombre d’habitants) et de son nombre de médiathèques.
 
 _3507€ : salaire médian au coût total employeur._
