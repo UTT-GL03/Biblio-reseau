@@ -41,10 +41,10 @@ Nous avons choisi de comparer l'impact des scénarios sur les services de plusie
 
 | Service                             | Score (sur 100) | Classe |  Détails des mesures  |
 | :---------------------------------- | --------------: | :----: | :-------------------: |
-| Val d'Yerres - Val de Seine         |      25.8       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
-| Bibliothèques de Paris              |     15.31       |   F   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
-| Bibliothèque universitaire de Reims |     39.70       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
-| Médiathèque Jacques Chirac          |     37.71       |   E   |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
+| Val d'Yerres - Val de Seine         |      25.8/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/vyvs/ecoindex-environmental-statement.md)                       |
+| Bibliothèques de Paris              |     15.31/100   |   F    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bibliotheques_paris/ecoindex-environmental-statement.md)            |
+| Bibliothèque universitaire de Reims |     39.70/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md)                       |
+| Médiathèque Jacques Chirac          |     37.71/100   |   E    |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md) |
 
 Tab. 1 : Mesure de l'EcoIndex moyen de services de médiathèques et réseaux de médiathèques.
 
@@ -54,9 +54,12 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 ## Modèle économique
 
-| Nombre d’habitants | Nombre de médiathèques | Montant de financement |  Quantité nécessaire pour financer un salaire  |
-| :----------------- | :--------------------- | ---------------------: | :---------------------------------------------: |
-| -30 000 habitants  | 1 médiathèque          |  |  |
+| Nom de la bibliothèque              | Qui Finance pas an ?                                    | Montant des financements                    |  Financement externe/ par projet                          |    Source                                                                                                         |
+| :----------------------------------:| :-----------------------------------------------------: | :-----------------------------------------: | :-------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------: |
+| Val d'Yerres - Val de seine         | Communauté d'agglomération Val d'Yerres - Val de Seine  | 500 000 euros en 2025                       | Etat via DRAC/ Région Ile-de-France/ Département de l'Essone                        ||[rapport d'orientation budgétaire 2025](https://www.vyvs.fr/wp-content/uploads/2025/01/ROB-2025.pdf)                   |
+| Bibliothèque de Paris               | Ville de Paris                                          | 4,4 millions en 2025                        | DRAC Ile-de-France/ Dotation générale de décentralisation (Etat)/ Région Ile de France | [Projet budget 2025](https://cdn.paris.fr/paris/2024/12/20/bp-2025-rapport-projet-budget_2-2J4H.pdf).                              |
+| Bibliothèque universitaire de Reims |     l'Université de Reims Champagne-Ardenne (URCA)      |  6 millions sur l'ensemble des bibliothèque | Etat/ Région Grand-Est/ UE/ Inscription                                            | [Tableau dépenses](https://www.univ-reims.fr/media-files/73254/tr-cf-2025-univ.pdf)                                                          |
+| Médiathèque Jacques Chirac          | Troyes Champagne Métropole                              | 4.5 millions en 2025                        | Dotation générale de décentralisation (Etat)/ DRAC Grand-Est/ région           | [Rapport de synthèse](https://troyes-champagne-metropole.fr/wp-content/uploads/2025/05/BP-2025-Rapport-de-synthese.pdf)|
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
 
@@ -66,7 +69,9 @@ Les aides de l’État sont en baisses dernièrement, et les médiathèques ne s
 _3507€ : salaire médian au coût total employeur._
 _on cherche quel financement demnder pour payer 1 personne au salaire médian_
 
-
+| Nombre d’habitants | Nombre de médiathèques | Montant de financement |  Quantité nécessaire pour financer un salaire  |
+| :----------------- | :--------------------- | ---------------------: | :---------------------------------------------: |
+| -30 000 habitants  | 1 médiathèque          |  |  |
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médoathèques.
 
 **SOURCER !!!!!!!!!!!!!!!!!!**
