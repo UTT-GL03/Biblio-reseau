@@ -79,6 +79,27 @@ _on cherche quel financement demnder pour payer 1 personne au salaire médian_
 | Pomme | Pomme | Pomme | Pomme | Pomme | Pomme | 
 | Pomme | Pomme | Pomme | Pomme | Pomme | Pomme |
 | - | - | - | - | - | - |
+<table>
+  <tr>
+    <th colspan="2">Merged Column Header</th>
+    <th>Normal Column</th>
+  </tr>
+  <tr>
+    <th>Col 1</th>
+    <th>Col 2</th>
+    <th>Normal Column</th>
+  </tr>
+  <tr>
+    <td>Data A</td>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+    <td>Data B</td>
+    <td>Data 4</td>
+  </tr>
+</table>
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médoathèques.
 
 Cependant, dans notre exemple de l’agglomération troyenne, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
