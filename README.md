@@ -112,6 +112,6 @@ Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques 
 
 
 
-[^1] Selon les chiffres de population de 2023 (source : [INSEE]())
-[^2] Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF]([https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net)))
-[^3] Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
+[^1]: Selon les chiffres de population de 2023 (source : [INSEE]())
+[^2]: Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF]([https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net)))
+[^3]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
