@@ -63,43 +63,52 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
-Dans notre cas, notre proposition utiliserait certainement les subventions offerte par l'état, la région ou le département qui sont principalement données dans le cadre de projet ponctuel. 
+En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques, nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
 
-Les aides de l’État sont en baisses dernièrement, et les médiathèques ne sont pas la priorité des municipalités. Cependant, nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous pensons utiliser des échelons de financement pour les différentes municipalités dont la médiathèque participerait à notre site. Le financement dépendrait de la taille de la ville (nombre d’habitants) et de son nombre de médiathèques.
+Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site. Nous avons doc décidé de créer des échelons de financement dépendant de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
 
-Pour calculer ces échelons, nous nous sommes basés sur les [bibliothèques de l’agglomération troyenne](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette agglomération, 5 villes sont en dessous de 5000 habitants, 2 sont entre 5000 et 10000, 2 entre 10000 et 15000 et 1 seule ville a plus de 15000 habitants : Troyes. Cette ville est aussi la seule a avoir plus d’une médiathèque. Pour vérifier que notre système était viable même dans 
+Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de la ommunauté d’agglomération de Troyes Champagne Métropole](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette communauté d'agglomérations, 10 villes ont des médiathèques :
+- 5 villes ont moins de 5000 habitants, avec une seule médiathèque chacune.
+- 2 villes ont entre 5000 et 10000 habitants, avec une seule médiathèque chacune.
+- 3 villes ont entre 10000 et 15000 habitants, avec une seule médiathèque chacune.
+- 1 ville a entre 60 000 et 70 000 habitants, avec 6 médiathèques.
+
+Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour la communauté d'agglomérat Val
+
+2: on se base sur Troyes Champagne Métropole. répartition des villes. on fait aussi avec VYVS
+3: explication des échelons
+tableau : rajouter ligne en bas avec total
 
 _3507€ : salaire médian au coût total employeur._
-_on cherche quel financement demnder pour payer 1 personne au salaire médian_
 
-| Nombre d’habitants | Financement par mois | Financement par an | Agglomération troyenne (par mois) | Val d’Yerres/Val de Sein (par mois) | Nombre nécessaire pour un salaire médian |
-| - | - | - | - | - | - |
-| Nombre d’habitants | Financement par mois | Financement par an | Agglomération troyenne (par mois) | Val d’Yerres/Val de Sein (par mois) | Nombre nécessaire pour un salaire médian |
-| - | - | - | - | - | - |
-| Pomme | Pomme | Pomme | Pomme | Pomme | Pomme | 
-| Pomme | Pomme | Pomme | Pomme | Pomme | Pomme |
-| - | - | - | - | - | - |
 <table>
-  <tr>
-    <th colspan="2">Merged Column Header</th>
-    <th>Normal Column</th>
-  </tr>
-  <tr>
-    <th>Col 1</th>
-    <th>Col 2</th>
-    <th>Normal Column</th>
-  </tr>
-  <tr>
-    <td>Data A</td>
-    <td>Data 1</td>
-    <td>Data 2</td>
-  </tr>
-  <tr>
-    <td>Data 3</td>
-    <td>Data B</td>
-    <td>Data 4</td>
-  </tr>
+  <tr><th rowspan="2"> Nombre d’habitants </th><th colspan="2"> Financement par mois </th><th colspan="2"> Financement par an </th><th rowspan="2"> Agglomération troyenne (par mois) </th><th rowspan="2"> Val d’Yerres/Val de Sein (par mois) </th><th colspan="3"> Nombre nécessaire pour un salaire médian </th></tr>
+  <tr><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th></tr>
+  <tr><td>< 5 000</td><td css="text-align:right;">50</td><td css="text-align:right;">75</td><td css="text-align:right;">600</td><td css="text-align:right;">900</td><td css="text-align:right;">200</td><td css="text-align:right;">0</td><td css="text-align:right;">71</td><td css="text-align:right;">36</td></tr>
+  <tr><td>5 000 ≤ x < 10 000</td><td css="text-align:right;">200</td><td css="text-align:right;">225</td><td css="text-align:right;">2400</td><td css="text-align:right;">2700</td><td css="text-align:right;">400</td><td css="text-align:right;">625</td><td css="text-align:right;">18</td><td css="text-align:right;">15</td></tr>
+  <tr><td>10 000 ≤ x < 15 000</td><td css="text-align:right;">350</td><td css="text-align:right;">375</td><td css="text-align:right;">4200</td><td css="text-align:right;">4500</td><td css="text-align:right;">1050</td><td css="text-align:right;">350</td><td css="text-align:right;">11</td><td css="text-align:right;">9</td></tr>
+  <tr><td>15 000 ≤ x < 20 000</td><td css="text-align:right;">500</td><td css="text-align:right;">525</td><td css="text-align:right;">6000</td><td css="text-align:right;">6300</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">8</td><td css="text-align:right;">7</td></tr>
+  <tr><td>20 000 ≤ x < 30 000</td><td css="text-align:right;">800</td><td css="text-align:right;">825</td><td css="text-align:right;">9600</td><td css="text-align:right;">9900</td><td css="text-align:right;">0</td><td css="text-align:right;">2425</td><td css="text-align:right;">5</td><td css="text-align:right;">5</td></tr>
+  <tr><td>30 000 ≤ x < 40 000</td><td css="text-align:right;">1100</td><td css="text-align:right;">1125</td><td css="text-align:right;">13200</td><td css="text-align:right;">13500</td><td css="text-align:right;">0</td><td css="text-align:right;">3300</td><td css="text-align:right;">4</td><td css="text-align:right;">4</td></tr>
+  <tr><td>40 000 ≤ x < 50 000</td><td css="text-align:right;">1400</td><td css="text-align:right;">1425</td><td css="text-align:right;">16800</td><td css="text-align:right;">17200</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">3</td><td css="text-align:right;">3</td></tr>
+  <tr><td>50 000 ≤ x < 60 000</td><td css="text-align:right;">1700</td><td css="text-align:right;">1725</td><td css="text-align:right;">20400</td><td css="text-align:right;">20700</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">3</td><td css="text-align:right;">3</td></tr>
+  <tr><td>60 000 ≤ x < 70 000</td><td css="text-align:right;">2000</td><td css="text-align:right;">2025</td><td css="text-align:right;">24000</td><td css="text-align:right;">24300</td><td css="text-align:right;">2125</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
+  <tr><td>70 000 ≤ x < 80 000</td><td css="text-align:right;">2300</td><td css="text-align:right;">2325</td><td css="text-align:right;">27600</td><td css="text-align:right;">27900</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
+  <tr><td>80 000 ≤ x < 90 000</td><td css="text-align:right;">2600</td><td css="text-align:right;">2625</td><td css="text-align:right;">31200</td><td css="text-align:right;">31500</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
+ <tr><td>90 000 ≤ x < 100 000</td><td css="text-align:right;">2900</td><td css="text-align:right;">2925</td><td css="text-align:right;">34800</td><td css="text-align:right;">35100</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
 </table>
-Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médoathèques.
+Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
-Cependant, dans notre exemple de l’agglomération troyenne, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
+Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
+
+
+
+
+
+
+
+
+
+[^1] Selon les chiffres de population de 2023 (source : [INSEE]())
+[^2] Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF]([https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net)))
+[^3] Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
