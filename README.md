@@ -98,7 +98,9 @@ Les financements sont répartis de la manière suivante :
  <tr><td>90 000 ≤ x < 100 000</td><td style="text-align:right;">2900</td><td style="text-align:right;">2925</td><td style="text-align:right;">34800</td><td style="text-align:right;">35100</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
  <tr><th>Total</th><th></th><th></th><th></th><th></th><th style="text-align:right;">3775</th><th style="text-align:right;">6700</th><th></th><th></th></tr>
 </table>
+
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
+
 
 Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
 
