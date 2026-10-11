@@ -63,7 +63,7 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
-En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
+En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques (cf. Tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
 
 Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site. Nous avons doc décidé de créer des échelons de financement dépendant de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
 
