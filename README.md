@@ -96,7 +96,7 @@ Les financements sont répartis de la manière suivante :
   <tr><td>70 000 ≤ x < 80 000</td><td style="text-align:right;">2300</td><td style="text-align:right;">2325</td><td style="text-align:right;">27600</td><td style="text-align:right;">27900</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
   <tr><td>80 000 ≤ x < 90 000</td><td style="text-align:right;">2600</td><td style="text-align:right;">2625</td><td style="text-align:right;">31200</td><td style="text-align:right;">31500</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
  <tr><td>90 000 ≤ x < 100 000</td><td style="text-align:right;">2900</td><td style="text-align:right;">2925</td><td style="text-align:right;">34800</td><td style="text-align:right;">35100</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
- <tr><th>Total</th><th></th><th></th><th></th><th></th><th></th><th style="text-align:right;">3775</th><th style="text-align:right;">6700</th><th></th><th></th></tr>
+ <tr><th>Total</th><th></th><th></th><th></th><th></th><th style="text-align:right;">3775</th><th style="text-align:right;">6700</th><th></th><th></th></tr>
 </table>
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
