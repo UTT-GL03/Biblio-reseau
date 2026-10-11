@@ -63,39 +63,40 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
-En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques, nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
+En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
 
 Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site. Nous avons doc décidé de créer des échelons de financement dépendant de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
 
 Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de la ommunauté d’agglomération de Troyes Champagne Métropole](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette communauté d'agglomérations, 10 villes ont des médiathèques :
-- 5 villes ont moins de 5000 habitants, avec une seule médiathèque chacune.
-- 2 villes ont entre 5000 et 10000 habitants, avec une seule médiathèque chacune.
-- 3 villes ont entre 10000 et 15000 habitants, avec une seule médiathèque chacune.
+- 4 villes ont moins de 5 000 habitants, avec une seule médiathèque chacune.
+- 2 villes ont entre 5 000 et 10 000 habitants, avec une seule médiathèque chacune.
+- 3 villes ont entre 10 000 et 15 000 habitants, avec une seule médiathèque chacune.
 - 1 ville a entre 60 000 et 70 000 habitants, avec 6 médiathèques.
 
-Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour la communauté d'agglomérat Val
+Nous avons conçu les échelons de manière à atteindre un salaire médian[^2] pour Troyes Champagne Métropole. Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour les [médiathèques du Val d’Yerres/Val de Seine]()[^3] (VYVS dans le tableau).
 
-2: on se base sur Troyes Champagne Métropole. répartition des villes. on fait aussi avec VYVS
-3: explication des échelons
-tableau : rajouter ligne en bas avec total
-
-_3507€ : salaire médian au coût total employeur._
+Les financements sont répartis de la manière suivante : 
+- 50€ pour les villes en-dessous de 5 000 habitants avec une seule médiathèque.
+- 150€ de plus pour chaque tranche de 5 000 habitants jusqu’à 20 000 habitants, pour les villes avec une seule médiathèque.
+- 300€ de plus pour chaque tranche de 10 000 habitants à partir de 20 000 habitants, pour les villes avec une seule médiathèque.
+- 25€ de plus pour chaque médiathèque supplémentaire après la première.
 
 <table>
-  <tr><th rowspan="2"> Nombre d’habitants </th><th colspan="2"> Financement par mois </th><th colspan="2"> Financement par an </th><th rowspan="2"> Agglomération troyenne (par mois) </th><th rowspan="2 »>VYVS</th><th colspan="3"> Nombre nécessaire pour un salaire médian </th></tr>
+  <tr><th rowspan="2"> Nombre d’habitants </th><th colspan="2"> Financement par mois </th><th colspan="2"> Financement par an </th><th rowspan="2"> Agglomération troyenne (par mois) </th><th rowspan="2">VYVS</th><th colspan="3"> Nombre nécessaire pour un salaire médian </th></tr>
   <tr><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th></tr>
-  <tr><td>< 5 000</td><td css="text-align:right;">50</td><td css="text-align:right;">75</td><td css="text-align:right;">600</td><td css="text-align:right;">900</td><td css="text-align:right;">200</td><td css="text-align:right;">0</td><td css="text-align:right;">71</td><td css="text-align:right;">36</td></tr>
-  <tr><td>5 000 ≤ x < 10 000</td><td css="text-align:right;">200</td><td css="text-align:right;">225</td><td css="text-align:right;">2400</td><td css="text-align:right;">2700</td><td css="text-align:right;">400</td><td css="text-align:right;">625</td><td css="text-align:right;">18</td><td css="text-align:right;">15</td></tr>
-  <tr><td>10 000 ≤ x < 15 000</td><td css="text-align:right;">350</td><td css="text-align:right;">375</td><td css="text-align:right;">4200</td><td css="text-align:right;">4500</td><td css="text-align:right;">1050</td><td css="text-align:right;">350</td><td css="text-align:right;">11</td><td css="text-align:right;">9</td></tr>
-  <tr><td>15 000 ≤ x < 20 000</td><td css="text-align:right;">500</td><td css="text-align:right;">525</td><td css="text-align:right;">6000</td><td css="text-align:right;">6300</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">8</td><td css="text-align:right;">7</td></tr>
-  <tr><td>20 000 ≤ x < 30 000</td><td css="text-align:right;">800</td><td css="text-align:right;">825</td><td css="text-align:right;">9600</td><td css="text-align:right;">9900</td><td css="text-align:right;">0</td><td css="text-align:right;">2425</td><td css="text-align:right;">5</td><td css="text-align:right;">5</td></tr>
-  <tr><td>30 000 ≤ x < 40 000</td><td css="text-align:right;">1100</td><td css="text-align:right;">1125</td><td css="text-align:right;">13200</td><td css="text-align:right;">13500</td><td css="text-align:right;">0</td><td css="text-align:right;">3300</td><td css="text-align:right;">4</td><td css="text-align:right;">4</td></tr>
-  <tr><td>40 000 ≤ x < 50 000</td><td css="text-align:right;">1400</td><td css="text-align:right;">1425</td><td css="text-align:right;">16800</td><td css="text-align:right;">17200</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">3</td><td css="text-align:right;">3</td></tr>
-  <tr><td>50 000 ≤ x < 60 000</td><td css="text-align:right;">1700</td><td css="text-align:right;">1725</td><td css="text-align:right;">20400</td><td css="text-align:right;">20700</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">3</td><td css="text-align:right;">3</td></tr>
-  <tr><td>60 000 ≤ x < 70 000</td><td css="text-align:right;">2000</td><td css="text-align:right;">2025</td><td css="text-align:right;">24000</td><td css="text-align:right;">24300</td><td css="text-align:right;">2125</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
-  <tr><td>70 000 ≤ x < 80 000</td><td css="text-align:right;">2300</td><td css="text-align:right;">2325</td><td css="text-align:right;">27600</td><td css="text-align:right;">27900</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
-  <tr><td>80 000 ≤ x < 90 000</td><td css="text-align:right;">2600</td><td css="text-align:right;">2625</td><td css="text-align:right;">31200</td><td css="text-align:right;">31500</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
- <tr><td>90 000 ≤ x < 100 000</td><td css="text-align:right;">2900</td><td css="text-align:right;">2925</td><td css="text-align:right;">34800</td><td css="text-align:right;">35100</td><td css="text-align:right;">0</td><td css="text-align:right;">0</td><td css="text-align:right;">2</td><td css="text-align:right;">2</td></tr>
+  <tr><td>< 5 000</td><td style="text-align:right;">50</td><td style="text-align:right;">75</td><td style="text-align:right;">600</td><td style="text-align:right;">900</td><td style="text-align:right;">200</td><td style="text-align:right;">0</td><td style="text-align:right;">71</td><td style="text-align:right; »>47</td></tr>
+  <tr><td>5 000 ≤ x < 10 000</td><td style="text-align:right;">200</td><td style="text-align:right;">225</td><td style="text-align:right;">2400</td><td style="text-align:right;">2700</td><td style="text-align:right;">400</td><td style="text-align:right;">625</td><td style="text-align:right;">18</td><td style="text-align:right; »>16</td></tr>
+  <tr><td>10 000 ≤ x < 15 000</td><td style="text-align:right;">350</td><td style="text-align:right;">375</td><td style="text-align:right;">4200</td><td style="text-align:right;">4500</td><td style="text-align:right;">1050</td><td style="text-align:right;">350</td><td style="text-align:right;">11</td><td style="text-align:right; »>10</td></tr>
+  <tr><td>15 000 ≤ x < 20 000</td><td style="text-align:right;">500</td><td style="text-align:right;">525</td><td style="text-align:right;">6000</td><td style="text-align:right;">6300</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">8</td><td style="text-align:right;">7</td></tr>
+  <tr><td>20 000 ≤ x < 30 000</td><td style="text-align:right;">800</td><td style="text-align:right;">825</td><td style="text-align:right;">9600</td><td style="text-align:right;">9900</td><td style="text-align:right;">0</td><td style="text-align:right;">2425</td><td style="text-align:right;">5</td><td style="text-align:right;">5</td></tr>
+  <tr><td>30 000 ≤ x < 40 000</td><td style="text-align:right;">1100</td><td style="text-align:right;">1125</td><td style="text-align:right;">13200</td><td style="text-align:right;">13500</td><td style="text-align:right;">0</td><td style="text-align:right;">3300</td><td style="text-align:right;">4</td><td style="text-align:right;">4</td></tr>
+  <tr><td>40 000 ≤ x < 50 000</td><td style="text-align:right;">1400</td><td style="text-align:right;">1425</td><td style="text-align:right;">16800</td><td style="text-align:right;">17100</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">3</td><td style="text-align:right;">3</td></tr>
+  <tr><td>50 000 ≤ x < 60 000</td><td style="text-align:right;">1700</td><td style="text-align:right;">1725</td><td style="text-align:right;">20400</td><td style="text-align:right;">20700</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">3</td><td style="text-align:right;">3</td></tr>
+  <tr><td>60 000 ≤ x < 70 000</td><td style="text-align:right;">2000</td><td style="text-align:right;">2025</td><td style="text-align:right;">24000</td><td style="text-align:right;">24300</td><td style="text-align:right;">2125</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
+  <tr><td>70 000 ≤ x < 80 000</td><td style="text-align:right;">2300</td><td style="text-align:right;">2325</td><td style="text-align:right;">27600</td><td style="text-align:right;">27900</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
+  <tr><td>80 000 ≤ x < 90 000</td><td style="text-align:right;">2600</td><td style="text-align:right;">2625</td><td style="text-align:right;">31200</td><td style="text-align:right;">31500</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
+ <tr><td>90 000 ≤ x < 100 000</td><td style="text-align:right;">2900</td><td style="text-align:right;">2925</td><td style="text-align:right;">34800</td><td style="text-align:right;">35100</td><td style="text-align:right;">0</td><td style="text-align:right;">0</td><td style="text-align:right;">2</td><td style="text-align:right;">2</td></tr>
+ <tr><th>Total</th><th></th><th></th><th></th><th></th><th></th><th style="text-align:right;">3775</th><th style="text-align:right;">6700</th><th></th><th></th></tr>
 </table>
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
