@@ -73,7 +73,7 @@ Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de 
 - 3 villes ont entre 10 000 et 15 000 habitants, avec une seule médiathèque chacune.
 - 1 ville a entre 60 000 et 70 000 habitants, avec 6 médiathèques.
 
-Nous avons conçu les échelons de manière à atteindre un salaire médian[^2] pour Troyes Champagne Métropole. Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour les [médiathèques du Val d’Yerres/Val de Seine]()[^3] (VYVS dans le tableau).
+Nous avons conçu les échelons de manière à atteindre un salaire médian[^2] pour Troyes Champagne Métropole (TCM dans le tableau). Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour les [médiathèques du Val d’Yerres/Val de Seine]()[^3] (VYVS dans le tableau).
 
 Les financements sont répartis de la manière suivante : 
 - 50€ pour les villes en-dessous de 5 000 habitants avec une seule médiathèque.
@@ -82,7 +82,7 @@ Les financements sont répartis de la manière suivante :
 - 25€ de plus pour chaque médiathèque supplémentaire après la première.
 
 <table>
-  <tr><th rowspan="2"> Nombre d’habitants </th><th colspan="2"> Financement par mois </th><th colspan="2"> Financement par an </th><th rowspan="2"> Agglomération troyenne (par mois) </th><th rowspan="2">VYVS</th><th colspan="3"> Nombre nécessaire pour un salaire médian </th></tr>
+  <tr><th rowspan="2"> Nombre d’habitants </th><th colspan="2"> Financement par mois </th><th colspan="2"> Financement par an </th><th rowspan="2"> TCM (par mois) </th><th rowspan=« 2"> VYVS (par mois) </th><th colspan="3"> Nombre nécessaire pour un salaire médian </th></tr>
   <tr><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th><th>1 médiathèque</th><th>2 médiathèques</th></tr>
   <tr><td>< 5 000</td><td style="text-align:right;">50</td><td style="text-align:right;">75</td><td style="text-align:right;">600</td><td style="text-align:right;">900</td><td style="text-align:right;">200</td><td style="text-align:right;">0</td><td style="text-align:right;">71</td><td style="text-align:right;">47</td></tr>
   <tr><td>5 000 ≤ x < 10 000</td><td style="text-align:right;">200</td><td style="text-align:right;">225</td><td style="text-align:right;">2400</td><td style="text-align:right;">2700</td><td style="text-align:right;">400</td><td style="text-align:right;">625</td><td style="text-align:right;">18</td><td style="text-align:right;">16</td></tr>
