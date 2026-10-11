@@ -67,7 +67,7 @@ En étudiant les sources de financement des autres médiathèques et réseaux de
 
 Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site. Nous avons doc décidé de créer des échelons de financement dépendant de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
 
-Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de la ommunauté d’agglomération de Troyes Champagne Métropole](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette communauté d'agglomérations, 10 villes ont des médiathèques :
+Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de la vommunauté d’agglomération de Troyes Champagne Métropole](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette communauté d'agglomérations, 10 villes ont des médiathèques :
 - 4 villes ont moins de 5 000 habitants, avec une seule médiathèque chacune.
 - 2 villes ont entre 5 000 et 10 000 habitants, avec une seule médiathèque chacune.
 - 3 villes ont entre 10 000 et 15 000 habitants, avec une seule médiathèque chacune.
