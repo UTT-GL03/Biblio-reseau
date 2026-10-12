@@ -101,11 +101,20 @@ Les financements sont répartis de la manière suivante :
 
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
-
 Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
 
+## Maquette de l'interface et échantillon de données
 
+Au vu des différents services comparés et des scénarios retenus, nous allons définir pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
 
+Conformément aux standards du Web, les "écrans" de notre application sont la représentation en HTML des types de ressources de notre domaine :
+
+- Le panneau d'affichage (avec une HTTP-URI ayant pour chemin /), qui contient un aperçu des coups de cœur, des nouveautés et des évènements à venir.
+- La liste des documents correspondant à une recherche (avec pour chemin /?search={text} ou /?search={text}+type={type}).
+- Un document (avec pour chemin /document={id}).
+- Éventuellement la liste des événènements (avec pour chemin /evenements/) et un événement (avec pour chemin /evenement={id})
+
+Nous avons choisi d’utiliser le terme « document » plutôt que « livre » car les médiathèques, par opposition aux bibliothèques, proposent plusieurs types de documents en plus des livres.
 
 
 
