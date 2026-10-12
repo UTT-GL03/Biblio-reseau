@@ -109,13 +109,16 @@ Au vu des différents services comparés et des scénarios retenus, nous allons 
 
 Conformément aux standards du Web, les "écrans" de notre application sont la représentation en HTML des types de ressources de notre domaine :
 
-- Le panneau d'affichage (avec une HTTP-URI ayant pour chemin /), qui contient un aperçu des coups de cœur, des nouveautés et des évènements à venir.
-- La liste des documents correspondant à une recherche (avec pour chemin /?search={text} ou /?search={text}+type={type}).
-- Un document (avec pour chemin /document={id}).
-- Éventuellement la liste des événènements (avec pour chemin /evenements/) et un événement (avec pour chemin /evenement={id})
+- Le panneau d'affichage (avec une HTTP-URI ayant pour chemin `/`), qui contient un aperçu des coups de cœur, des nouveautés et des évènements à venir.
+- La liste des documents correspondant à une recherche (avec pour chemin `/?search={text}` ou `/?search={text}+type={type}`).
+- Un document (avec pour chemin `/document={id}`).
+- Éventuellement la liste des événènements (avec pour chemin `/evenements`) et un événement (avec pour chemin `/evenement={id}`)
 
 Nous avons choisi d’utiliser le terme « document » plutôt que « livre » car les médiathèques, par opposition aux bibliothèques, proposent plusieurs types de documents en plus des livres.
 
+Dans un objectif de sobriété environnementale, les articles sont pour l'instant limités à ceux du jour et de la veille (soit 20 à 30 articles).
+
+Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec `dummy-json`). Bien que fictives, ces données correspondent à la structure des services concurrents : les articles comportent un titre possiblement long, un auteur et une rubrique (voir [modèle de données](source)).
 
 
 
