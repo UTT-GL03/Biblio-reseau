@@ -63,15 +63,15 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
 
 Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
 
-En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques (cf. Tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par l’administration qui les régit. Dans notre cas, notre proposition sera donc financé par les subventions des municipalités concernées. 
+En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques (cf. Tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par les administrations, notamment celles qui les régissent. Dans notre cas, notre proposition sera donc financée par les subventions des municipalités concernées. 
 
-Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site. Nous avons doc décidé de créer des échelons de financement dépendant de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
+Nous proposons un service qui viendrait possiblement remplacer les sites individuels de chaque médiathèque. Cela serait moins cher car le coût serait réparti entre les bibliothèques. Nous avons donc utilisé des échelons de financement pour les différentes municipalités dont la médiathèque participe à notre site, en fonction de la taille de chaque ville (nombre d’habitants) et de son nombre de médiathèques.
 
 Pour calculer ces échelons, nous nous sommes basés sur les [médiathèques de la vommunauté d’agglomération de Troyes Champagne Métropole](https://troyes-champagne-metropole.fr/se-divertir/culture/les-mediatheques/). Dans cette communauté d'agglomérations, 10 villes ont des médiathèques :
 - 4 villes ont moins de 5 000 habitants, avec une seule médiathèque chacune.
 - 2 villes ont entre 5 000 et 10 000 habitants, avec une seule médiathèque chacune.
 - 3 villes ont entre 10 000 et 15 000 habitants, avec une seule médiathèque chacune.
-- 1 ville a entre 60 000 et 70 000 habitants, avec 6 médiathèques.
+- 1 ville a entre 60 000 et 70 000 habitants, avec 6 médiathèques.[^1]
 
 Nous avons conçu les échelons de manière à atteindre un salaire médian[^2] pour Troyes Champagne Métropole (TCM dans le tableau). Pour vérifier que notre système était viable même dans une autre communauté d’agglomération, nous avons également vérifié le financement pour les [médiathèques du Val d’Yerres/Val de Seine]()[^3] (VYVS dans le tableau).
 
@@ -102,7 +102,7 @@ Les financements sont répartis de la manière suivante :
 Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
 
-Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
+Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération[^4]. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
 
 
 
@@ -115,3 +115,4 @@ Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques 
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))
 [^2]: Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF]([https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net)))
 [^3]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
+[^4]: 
