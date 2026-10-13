@@ -120,7 +120,9 @@ Fig.1: Maquette de l'interface du prototype : a. type de page pour les "titres" 
 
 Dans un objectif de sobriété environnementale, nous avons limités le nombre de documents et le nombre d'événements à une vingtaine chacun.
 
-Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec [`dummy-json`](https://github.com/webroo/dummy-json/blob/master/README.md)). Bien que fictives, ces données correspondent à la structure des services concurrents : les documents comportent une image (qui n'est pas une vraie image pour le moment), un titre plus ou moins long, un auteur, une langue, un type, une disponibilité (s'il est possible de le réservé ou non), une date de publication, des tags, un synopsis, un identifiant à 10 chiffres et un éditeur. Un événement, quant à lui, possède la structure suivante : un titre, un créateur, une date (que nous avons limité entre le 12 octobre et le 31 décembre 2026), un lieu, une description et une image (qui n'est pas encore une vraie image pour le moment) (voir [modèle de données]()).
+Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec [`dummy-json`](https://github.com/webroo/dummy-json/blob/master/README.md)). Bien que fictives, ces données correspondent à la structure des services concurrents : les documents comportent une image (qui n'est pas une vraie image pour le moment), un titre plus ou moins long, un auteur, une langue, un type, une disponibilité (s'il est possible de le réservé ou non), une date de publication, des tags, un synopsis, un identifiant à 10 chiffres et un éditeur. Un événement, quant à lui, possède la structure suivante : un titre, un créateur, une date (que nous avons limité entre le 12 octobre et le 31 décembre 2026), un lieu, une description et une image (qui n'est pas encore une vraie image pour le moment) (voir [modèle de données](https://github.com/UTT-GL03/Biblio-reseau/blob/main/modele_donne/sample_data.hbs
+)). 
+Voici le résultat obtenu avec le modèle de données : [Voir le jeu de données](https://github.com/UTT-GL03/Biblio-reseau/blob/main/modele_donne/sample_data.json)
 
 
 
