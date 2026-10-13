@@ -112,15 +112,15 @@ Conformément aux standards du Web, les "écrans" de notre application sont la r
 - Le panneau d'affichage (avec une HTTP-URI ayant pour chemin `/`), qui contient un aperçu des coups de cœur, des nouveautés et des évènements à venir.
 - La liste des documents correspondant à une recherche (avec pour chemin `/?search={text}` ou `/?search={text}+type={type}`).
 - Un document (avec pour chemin `/document={id}`).
-- Éventuellement la liste des événènements (avec pour chemin `/evenements`) et un événement (avec pour chemin `/evenement={id}`)
+- Éventuellement la liste des événements (avec pour chemin `/evenements`) et un événement (avec pour chemin `/evenement={id}`)
 
 Nous avons choisi d’utiliser le terme « document » plutôt que « livre » car les médiathèques, par opposition aux bibliothèques, proposent plusieurs types de documents en plus des livres.
 
 Fig.1: Maquette de l'interface du prototype : a. type de page pour les "titres" (du jour ou d'une rubrique), b. type de page d'un article.
 
-Dans un objectif de sobriété environnementale, les articles sont pour l'instant limités à ceux du jour et de la veille (soit 20 à 30 articles).
+Dans un objectif de sobriété environnementale, nous avons limités le nombre de documents et le nombre d'événements à une vingtaine chacun.
 
-Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec `dummy-json`). Bien que fictives, ces données correspondent à la structure des services concurrents : les articles comportent un titre possiblement long, un auteur et une rubrique (voir [modèle de données](source)).
+Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec [`dummy-json`](https://github.com/webroo/dummy-json/blob/master/README.md)). Bien que fictives, ces données correspondent à la structure des services concurrents : les documents comportent une image (qui n'est pas une vraie image pour le moment), un titre plus ou moins long, un auteur, une langue, un type, une disponibilité (s'il est possible de le réservé ou non), une date de publication, des tags, un synopsis, un identifiant à 10 chiffres et un éditeur. Un événement, quant à lui, possède la structure suivante : un titre, un créateur, une date (que nous avons limité entre le 12 octobre et le 31 décembre 2026), un lieu, une description et une image (qui n'est pas encore une vraie image pour le moment) (voir [modèle de données]()).
 
 
 
