@@ -105,7 +105,7 @@ Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques 
 
 ## Maquette de l'interface et échantillon de données
 
-Au vu des différents services comparés et des scénarios retenus, nous allons définir pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
+Au vu des différents services comparés et des scénarios retenus, nous avons définit pour notre prototype une maquette de l'interface et un échantillon de données réalistes.
 
 Conformément aux standards du Web, les "écrans" de notre application sont la représentation en HTML des types de ressources de notre domaine :
 
@@ -116,12 +116,33 @@ Conformément aux standards du Web, les "écrans" de notre application sont la r
 
 Nous avons choisi d’utiliser le terme « document » plutôt que « livre » car les médiathèques, par opposition aux bibliothèques, proposent plusieurs types de documents en plus des livres.
 
-Fig.1: Maquette de l'interface du prototype : a. type de page pour les "titres" (du jour ou d'une rubrique), b. type de page d'un article.
+<img width="579" height="671" alt="Protoype du tableau d'affichage" src="https://github.com/user-attachments/assets/f4e49513-0cbb-4d08-b525-735dce672741" />
 
-Dans un objectif de sobriété environnementale, nous avons limités le nombre de documents et le nombre d'événements à une vingtaine chacun.
+Fig.1: Maquette de l'interface du prototype d’un type de page pour le tableau d'affichage
+
+<img width="563" height="705" alt="Protoype des résultats de recherche" src="https://github.com/user-attachments/assets/b581bb20-334f-44b2-8ec6-d78f94851d8c" />
+
+Fig.2: Maquette de l'interface du prototype d’un type de page pour les résultats de recherche
+
+<img width="568" height="707" alt="Prototype de la liste des evenements" src="https://github.com/user-attachments/assets/6758348e-dd60-473f-9998-ff0ee7795b89" />
+
+Fig.3: Maquette de l'interface du prototype d’un type de page pour la liste des évènemenst
+
+<img width="566" height="337" alt="Prototype d’une page d’un document" src="https://github.com/user-attachments/assets/3f0d10e9-9424-4fd1-9feb-2135e2764d7d" />
+
+Fig.4: Maquette de l'interface du prototype d’un type de page pour un document
+
+<img width="560" height="339" alt="Prototype d’une page d’un evenement" src="https://github.com/user-attachments/assets/75beccd0-44c7-44a6-8fd2-c04f136cacc2" />
+
+Fig.5: Maquette de l'interface du prototype d’un type de page pour un évènement
+
+Les pages qui listent des élèments pouvant être très longues et donc consommer beaucoup, comme nous l’avons remarqué lors de notre étude, nous avons choisi de diviser ces listes en plusieurs n’affichant que 3 éléments chacune.
+
+Dans un objectif de sobriété environnementale, nous avons limité le nombre de documents et le nombre d'événements à une vingtaine chacun.
 
 Pour des raisons de respect des droits d'auteurs, nous utilisons des données générées (avec [`dummy-json`](https://github.com/webroo/dummy-json/blob/master/README.md)). Bien que fictives, ces données correspondent à la structure des services concurrents : les documents comportent une image (qui n'est pas une vraie image pour le moment), un titre plus ou moins long, un auteur, une langue, un type, une disponibilité (s'il est possible de le réservé ou non), une date de publication, des tags, un synopsis, un identifiant à 10 chiffres et un éditeur. Un événement, quant à lui, possède la structure suivante : un titre, un créateur, une date (que nous avons limité entre le 12 octobre et le 31 décembre 2026), un lieu, une description et une image (qui n'est pas encore une vraie image pour le moment) (voir [modèle de données](https://github.com/UTT-GL03/Biblio-reseau/blob/main/modele_donne/sample_data.hbs
 )). 
+
 Voici le résultat obtenu avec le modèle de données : [Voir le jeu de données](https://github.com/UTT-GL03/Biblio-reseau/blob/main/modele_donne/sample_data.json)
 
 
