@@ -46,7 +46,7 @@ Nous avons choisi de comparer l'impact des scénarios sur les services de plusie
 | Bibliothèque universitaire de Reims |     39.70/100   |  🟥 E  |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/bu_reims/ecoindex-environmental-statement.md) |
 | Médiathèque Jacques Chirac          |     37.71/100   |  🟥 E  |   [...](https://github.com/UTT-GL03/Biblio-reseau/blob/main/benchmark/mediatheque_jacques_chirac/ecoindex-environmental-statement.md)  |
 
-Tab. 1 : Mesure de l'EcoIndex moyen de services de médiathèques et réseaux de médiathèques.
+**Tab. 1 :** Mesure de l'EcoIndex moyen de services de médiathèques et réseaux de médiathèques.
 
 Les mesures de l'impact moyen de ces services (cf. Tab.1) révèlent des classes EcoIndex très faibles (E ou F).
 
@@ -61,7 +61,7 @@ Dans le détail, les pages les plus mal classées sont les pages de recherche, q
   | Bibliothèque universitaire de Reims |     Université de Reims Champagne-Ardenne (URCA)      |  6 millions d’euros en 2025 sur l'ensemble des bibliothèques, dont 25 000 d'investissement | Etat/ Région Grand-Est/ UE/ Inscription                                            | [Tableau des dépenses](https://www.univ-reims.fr/media-files/73254/tr-cf-2025-univ.pdf)                                                          |
 | Médiathèque Jacques Chirac          | Troyes Champagne Métropole                              | 5 millions d'euros en 2025, dont 300 000€ pour l’investissement dans les services transverses, dont informatique                      | Dotation générale de décentralisation (Etat)/ DRAC Grand-Est/ région           | [Rapport de synthèse](https://troyes-champagne-metropole.fr/wp-content/uploads/2025/05/BP-2025-Rapport-de-synthese.pdf)|
 
-Tab. 2 : Sources de financement des médiathèques et réseaux de médiathèques
+**Tab. 2 :** Sources de financement des médiathèques et réseaux de médiathèques
 
 En étudiant les sources de financement des autres médiathèques et réseaux de médiathèques (cf. Tab. 2), nous nous sommes rendu compte qu’ils sont entièrement financés par les administrations, notamment celles qui les régissent. Dans notre cas, notre proposition sera donc financée par les subventions des municipalités concernées. 
 
@@ -99,7 +99,7 @@ Les financements sont répartis de la manière suivante :
  <tr><th>Total</th><th></th><th></th><th></th><th></th><th style="text-align:right;">3775</th><th style="text-align:right;">6700</th><th></th><th></th></tr>
 </table>
 
-Tab. 3 : Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
+**Tab. 3 :** Échelons de financement des municipalités selon le nombre d’habitants et le nombre de médiathèques
 
 Dans notre exemple de Troyes Champagne Métropole, le réseau de médiathèques est géré par la communauté d’agglomération. Le projet pourrait donc être financé entièrement grâce au budget alloué à ce réseau par le conseil communautaire.
 
@@ -118,15 +118,15 @@ Nous avons choisi d’utiliser le terme « document » plutôt que « livre 
 
 <img width="579" height="671" alt="Protoype du tableau d'affichage" src="https://github.com/user-attachments/assets/f4e49513-0cbb-4d08-b525-735dce672741" />
 
-Fig.1: Maquette de l'interface du prototype d’un type de page du tableau d'affichage
+**Fig. 1 :** Maquette de l'interface du prototype d’un type de page du tableau d'affichage
 
 <img width="988" height="606" alt="Capture d’écran 2026-10-14 à 19 12 57" src="https://github.com/user-attachments/assets/22847deb-f8ee-49b8-aa57-cf371983f162" />
 
-Fig.2: Maquette de l'interface du prototype : **a.** type de page des résultats de recherche, **b.** type de page de la liste des évènements
+**Fig. 2 :** Maquette de l'interface du prototype : **a.** type de page des résultats de recherche, **b.** type de page de la liste des évènements
 
 <img width="995" height="298" alt="Capture d’écran 2026-10-14 à 19 13 31" src="https://github.com/user-attachments/assets/a96215cd-9230-433a-a61f-dcc6fa391a6e" />
 
-Fig.3: Maquette de l'interface du prototype : **a.** type de page d'un document, **b.** type de page d'un évènement
+**Fig. 3 :** Maquette de l'interface du prototype : **a.** type de page d'un document, **b.** type de page d'un évènement
 
 Les pages qui listent des élèments pouvant être très longues et donc consommer beaucoup, comme nous l’avons remarqué lors de notre étude, nous avons choisi de diviser ces listes en plusieurs n’affichant que 3 éléments chacune.
 
