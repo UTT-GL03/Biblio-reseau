@@ -118,23 +118,15 @@ Nous avons choisi d’utiliser le terme « document » plutôt que « livre 
 
 <img width="579" height="671" alt="Protoype du tableau d'affichage" src="https://github.com/user-attachments/assets/f4e49513-0cbb-4d08-b525-735dce672741" />
 
-Fig.1: Maquette de l'interface du prototype d’un type de page pour le tableau d'affichage
+Fig.1: Maquette de l'interface du prototype d’un type de page du tableau d'affichage
 
-<img width="563" height="705" alt="Protoype des résultats de recherche" src="https://github.com/user-attachments/assets/b581bb20-334f-44b2-8ec6-d78f94851d8c" />
+<img width="988" height="606" alt="Capture d’écran 2026-10-14 à 19 12 57" src="https://github.com/user-attachments/assets/22847deb-f8ee-49b8-aa57-cf371983f162" />
 
-Fig.2: Maquette de l'interface du prototype d’un type de page pour les résultats de recherche
+Fig.2: Maquette de l'interface du prototype : **a.** type de page des résultats de recherche, **b.** type de page de la liste des évènements
 
-<img width="568" height="707" alt="Prototype de la liste des evenements" src="https://github.com/user-attachments/assets/6758348e-dd60-473f-9998-ff0ee7795b89" />
+<img width="995" height="298" alt="Capture d’écran 2026-10-14 à 19 13 31" src="https://github.com/user-attachments/assets/a96215cd-9230-433a-a61f-dcc6fa391a6e" />
 
-Fig.3: Maquette de l'interface du prototype d’un type de page pour la liste des évènemenst
-
-<img width="566" height="337" alt="Prototype d’une page d’un document" src="https://github.com/user-attachments/assets/3f0d10e9-9424-4fd1-9feb-2135e2764d7d" />
-
-Fig.4: Maquette de l'interface du prototype d’un type de page pour un document
-
-<img width="560" height="339" alt="Prototype d’une page d’un evenement" src="https://github.com/user-attachments/assets/75beccd0-44c7-44a6-8fd2-c04f136cacc2" />
-
-Fig.5: Maquette de l'interface du prototype d’un type de page pour un évènement
+Fig.3: Maquette de l'interface du prototype : **a.** type de page d'un document, **b.** type de page d'un évènement
 
 Les pages qui listent des élèments pouvant être très longues et donc consommer beaucoup, comme nous l’avons remarqué lors de notre étude, nous avons choisi de diviser ces listes en plusieurs n’affichant que 3 éléments chacune.
 
