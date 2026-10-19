@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+  padding: 30px;
+}
+
+.titre {
+  padding: 10px 20px;
+  border-radius: 16px;
+  font-size: smaller;
+}
+
+.content{
+    text-justify: auto;
+}
+
+.tag{
+  border : 1px red solid; 
+  margin: 10px;
+}
