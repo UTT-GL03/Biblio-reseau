@@ -142,7 +142,7 @@ Voici le résultat obtenu avec le modèle de données : [Voir le jeu de données
 Pour cette première version du prototype (v1.0.0) :
 - l'échantillon de données est encore chargé dans le code de manière statique,
 - les fonctionnalités implémentées ne sont que celles nécessaires pour suivre le scénario prioritaire ("Chercher un document").
-Pour le moment, la fonctionnalité de recherche n'est pas implémentée. Pour le moment, nous avons uniquement 5 type de pages implémentées : le tableau d'affichage permettant de voir 3 documents "coup de coeur" (pour le moment, il s'agit uniquement des premières données statiques) ainsi qu'une section "Evénement à venir" avec les 3 prochains événements, la page document avec tous les documents disponible en format résumé, la page événement avec tous les événements au format résumé, ainsi qu'une page détaillées pour chaque documents et une page détaillé pour chaque événements. 
+Pour le moment, la fonctionnalité de recherche n'est pas implémentée. Nous avons uniquement 5 type de pages implémentées : le tableau d'affichage permettant de voir 3 documents "coup de coeur" (pour le moment, il s'agit uniquement des premières données statiques) ainsi qu'une section "Evénement à venir" avec les 3 prochains événements, la page document avec tous les documents disponible en format résumé, la page événement avec tous les événements au format résumé, ainsi qu'une page détaillées pour chaque document et une page détaillé pour chaque événement. 
 
 ### Page du tableau d'affichage : 
 Nous avons développé la page du panneau d'affichage (cf. Fig. 4) pour qu'elle affiche une échantillon de 3 documents et un échantillon de 3 événements, au format résumé.
@@ -151,14 +151,14 @@ Nous avons développé la page du panneau d'affichage (cf. Fig. 4) pour qu'elle 
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
 
-De même, pour le moment, les images ne sont pas affichée sur cette page. Même si ces photographies ont probablement un impact sur l'attention portée à un document ou événement, elles ne sont pas strictement requises pour la consultation des titres et ne sont donc pas incluses dans le produit minimum viable. Si une telle fonctionnalité devait par la suite être introduite, il faudrait mettre en balance son utilité et son impact a priori important. En effet, à moins de mettre en place des techniques avancées d'optimisation (et possiblement ambivalentes) comme les sprites en CSS ou le multiplexage dans HTTP/2 (cf. Wikipédia), une requête supplémentaire est nécessaire pour chaque image.
+De même, pour le moment, les images ne sont pas affichée sur cette page. Elles seront probablement implémentées par la suite car, dans le cas de documents et d'événements, il peut être important d'afficher l'image pour que l'utilisateur puisse avoir un aperçu du document ou de l'événement. Il faudra cependant trouver une balance afin de réduire l'impact que peut avoir l'affichage d'éléments possédant des images.
 
 Dans l'état actuel du prototype, il est possible d'avoir une première idée de l'impact environnemental du frontend. Bien entendu, il manque encore le chargement dynamique des données, mais nous pouvons déjà évaluer l'impact de l'affichage des données et du framework (au sens large : React, PicoCSS, DayJS). Cette évaluation de l'impact (cf. Tab.4) est déjà encourageante en mode "développement" mais encore plus en mode "pré-production". Nous mesurons ici l'effet positif de l'adoption d'outils de développement Web intégrant la "minification" (cf. Wikipédia) du code et la concaténation du code d'une part et des feuilles de style d'autre part.
 
-|                              | Ecoindex | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
-| :--------------------------: | :------: | :---------: | :-------------: |:--------:|:-----------------:|
-| Mode "developpement"         |          |  🟥 E  |    |
-| Mode "pré-production"        |          |  🟥 E  |    |
+|                              | Ecoindex         | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
+| :--------------------------: | :--------------: | :---------: | :-------------: |:--------:|:-----------------:|
+| Mode "developpement"         |   🟩A (88.07)   |     1.24    |  67              | 31       |6299              |
+| Mode "pré-production"        |   🟩 A (94.19)  |  1.12       |  64              |    3     | 507              |
 **tab 4**: Évaluation de l'impact du prototype de la page d'affichage
 
 ### Page de la consultation des documents : 
@@ -173,9 +173,9 @@ De même, pour le moment, les images ne sont pas affichée sur cette page. Elles
 Dans l'état actuel du prototype, il est possible d'avoir une première idée de l'impact environnemental du frontend. Bien entendu, il manque encore le chargement dynamique des données, mais nous pouvons déjà évaluer l'impact de l'affichage des données et du framework (au sens large : React, PicoCSS, DayJS). Cette évaluation de l'impact (cf. Tab.5) est déjà encourageante en mode "développement" mais encore plus en mode "pré-production". Nous mesurons ici l'effet positif de l'adoption d'outils de développement Web intégrant la "minification" (cf. Wikipédia) du code et la concaténation du code d'une part et des feuilles de style d'autre part.
 
 |                              | Ecoindex           | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
-| :--------------------------: | :---------------: | :----------: | :-------------: |:--------:|:-----------------:|
-| Mode "developpement"         |   🟩 A (84,93)    |   1.30       |        225      |   22    |        6181       |
-| Mode "pré-production"        |          |  🟥 E  |    |
+| :--------------------------: | :---------------:  | :----------: | :-------------: |:--------:|:----------------:|
+| Mode "developpement"         |   🟩 A (84,93)    |   1.30       |        225      |   22     |        6181       |
+| Mode "pré-production"        |   🟩 A (88,58)    |  1.23        |        222      |    3     |        507        |
 **tab 5**: Évaluation de l'impact du prototype de la page des documents
 
 ### Page de la consultation des événements : 
@@ -189,26 +189,30 @@ De même, pour le moment, les images ne sont pas affichée sur cette page. Elles
 
 Dans l'état actuel du prototype, il est possible d'avoir une première idée de l'impact environnemental du frontend. Bien entendu, il manque encore le chargement dynamique des données, mais nous pouvons déjà évaluer l'impact de l'affichage des données et du framework (au sens large : React, PicoCSS, DayJS). Cette évaluation de l'impact (cf. Tab.6) est déjà encourageante en mode "développement" mais encore plus en mode "pré-production". Nous mesurons ici l'effet positif de l'adoption d'outils de développement Web intégrant la "minification" (cf. Wikipédia) du code et la concaténation du code d'une part et des feuilles de style d'autre part.
 
-|                              | Ecoindex           | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
-| :--------------------------: | :---------------: | :----------: | :-------------: |:--------:|:-----------------:|
-| Mode "developpement"         |   🟩 A (87,13)    |   1.26       |        160      |   22    |        6181       |
-| Mode "pré-production"        |          |  🟥 E  |    |
+|                               | Ecoindex           | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
+| :---------------------------: | :---------------: | :----------: | :-------------: |:--------:|:-----------------:|
+| Mode "developpement"          |   🟩 A (87,13)    |   1.26       |        160      |   22    |        6181       |
+| Mode "pré-production"         |   🟩 A (89,11)    |   1.22       |        142      |   3     |        157        |
 **tab 6**: Évaluation de l'impact du prototype de la page des événements
 
 ### Page document
-Les pages contenant les informations précises des document ont pour HTTP-URI /{id}. Nous avons utilisé pour cela l'identifiant que nous avons implémenté dans le fichier de données statiques qui correspondra au numéro ISBN relatif aux documents.
+Les pages contenant les informations précises des document ont pour HTTP-URI documents/{id}. Nous avons utilisé pour cela l'identifiant que nous avons implémenté dans le fichier de données statiques qui correspondra au numéro ISBN relatif aux documents.
 
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 7) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
 
 ### Page événements
-Les pages contenant les informations précises des événement ont pour HTTP-URI /{id}. Pour le moment, les événements n'ont pas d'identifiant unique, nous avons donc utilisé le titre.
+Les pages contenant les informations précises des événement ont pour HTTP-URI évenements/{id}. Pour le moment, les événements n'ont pas d'identifiant unique, nous avons donc utilisé le titre.
 
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 8) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
 
-|                              | Ecoindex           | GES (gC02e) |  Taille du DOM  | Requêtes | Taille de la page |
-| :--------------------------: | :---------------: | :----------: | :-------------: |:--------:|:-----------------:|
-| Mode "developpement"         |   🟩 A (87,13)    |   1.26       |        160      |   22    |        6181       |
-| Mode "pré-production"        |          |  🟥 E  |    |
+
+|                                  | Ecoindex              | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
+| :---------------------------------: | :----------------: | :----------: | :-------------: |:--------:|:-----------------:|
+| Page d'affichage général            |   🟩 A (94.19)     |  1.12        |  64             |    3     |        507        |
+| Page d'affichage des documents      |   🟩 A (88,58)     |  1.23        |        222      |    3     |        507        |
+| Page du document choisi             |   🟩 A (95.84)     |   1.08       |        33       |    3     |        6181       |
+| Page d'affichage des documents      |   🟩 A (87,97)     |  1.24        |        222      |    3     |        507        |
+| Page du document choisi             |   🟩 A (95.68)     |   1.09       |        36       |    3     |        507        |
 **tab 7**: Évaluation de l'impact du prototype de la page d'affichage
 
 
@@ -216,8 +220,6 @@ Avec l'ajout de ce modèle de page, nous pouvons avoir un aperçu de l'impact en
 Ces estimations bien qu'artificiellement basses (puisque les données sont chargées de manière statique) sont tout de même à comparer avec celles des services concurrents vues précédemment.
 
 Si nous arrivons à maintenir les émissions en dessous de 1,3 g par page pour notre produit minimum viable, nous pouvons donc espérer proposer une alternative environ 2 fois moins impactante que les services existants (en incluant pourtant la participation au cycle de vie du terminal).
-
-Footnotes
 
 
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))
