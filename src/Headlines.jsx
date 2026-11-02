@@ -8,7 +8,7 @@ function Headlines(){
     return (
         <main className='container'>
                 {documentsByRow.map((x, i) =>
-                    <div key={i} className="grid">
+                    <div key={i} className="grid headlines">
                         {x.map((y, j) =>
               <Headline {...y} key={j} />
             )}
@@ -21,7 +21,7 @@ function Headlines(){
     
 function Headline({title, creator, type, tags, identifiant}) {
   return (
-    <div>
+    <div className='headline'>
       <Link to={identifiant}>
         <h2>{title}</h2>
       </Link>

@@ -1,6 +1,34 @@
-h1{
+/*    GENERAL RULES     */
+
+:root {
+  --bg-color: #c7cbff;
+  --tag-bg-color: hsl(237, 100%, 96%);
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  transition: none;
+}
+
+a:hover {
+  text-decoration: underline var(--bg-color);
+}
+
+h1 {
   text-align: center;
   padding: 30px;
+}
+
+html p{
+  margin-top: 1px;
+  margin-bottom: 5px;
+  margin-right: 1px;
+  margin-left: 1px;
+  font-size: 13px;
 }
 
 .titre {
@@ -9,11 +37,57 @@ h1{
   font-size: smaller;
 }
 
-.content{
-    text-justify: auto;
+
+/*    NOTICE BOARD RULES     */
+
+.headlines {
+  background-color: var(--bg-color);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px; 
 }
 
-.tag{
-  border : 1px red solid; 
-  margin: 10px;
+.headline {
+  background-color: white;
+  padding: 10px;
+  margin: 5px; 
+  font-size: 13px;
+  border-radius: 15px;
+}
+
+.headline h2 {
+  font-size: 17px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.tag {
+  border-radius: 10px;
+  background-color: var(--tag-bg-color);
+  color: #666666;
+  padding: 2px 7px;
+  margin: 3px 3px 3px 0px;
+  font-size: 10px;
+}
+
+.tags:last-child {
+  margin-right: 0px;
+}
+
+
+/*    DOCUMENT RULES     */
+
+.document h2 {
+  font-size: 25px;
+}
+
+.content {
+  text-justify: auto;
+  font-size: 15px;
+  margin: 15px 0px;
 }
