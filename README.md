@@ -147,6 +147,7 @@ Pour le moment, la fonctionnalité de recherche n'est pas implémentée. Nous av
 ### Page du tableau d'affichage : 
 Nous avons développé la page du panneau d'affichage (cf. Fig. 4) pour qu'elle affiche une échantillon de 3 documents et un échantillon de 3 événements, au format résumé.
 
+![capture ecran page affichage générale](image/Capture_ecran_accueil)
 **fig 4** : Prototype de la page d'affichage
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
@@ -159,6 +160,7 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | :--------------------------: | :--------------: | :---------: | :-------------: |:--------:|:-----------------:|
 | Mode "developpement"         |   🟩A (88.07)   |     1.24    |  67              | 31       |6299              |
 | Mode "pré-production"        |   🟩 A (94.19)  |  1.12       |  64              |    3     | 507              |
+
 **tab 4**: Évaluation de l'impact du prototype de la page d'affichage
 
 ### Page de la consultation des documents : 
@@ -176,6 +178,7 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | :--------------------------: | :---------------:  | :----------: | :-------------: |:--------:|:----------------:|
 | Mode "developpement"         |   🟩 A (84,93)    |   1.30       |        225      |   22     |        6181       |
 | Mode "pré-production"        |   🟩 A (88,58)    |  1.23        |        222      |    3     |        507        |
+
 **tab 5**: Évaluation de l'impact du prototype de la page des documents
 
 ### Page de la consultation des événements : 
@@ -193,6 +196,7 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | :---------------------------: | :---------------: | :----------: | :-------------: |:--------:|:-----------------:|
 | Mode "developpement"          |   🟩 A (87,13)    |   1.26       |        160      |   22    |        6181       |
 | Mode "pré-production"         |   🟩 A (89,11)    |   1.22       |        142      |   3     |        157        |
+
 **tab 6**: Évaluation de l'impact du prototype de la page des événements
 
 ### Page document
@@ -213,6 +217,7 @@ De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fi
 | Page du document choisi             |   🟩 A (95.84)     |   1.08       |        33       |    3     |        6181       |
 | Page d'affichage des documents      |   🟩 A (87,97)     |  1.24        |        222      |    3     |        507        |
 | Page du document choisi             |   🟩 A (95.68)     |   1.09       |        36       |    3     |        507        |
+
 **tab 7**: Évaluation de l'impact du prototype de la page d'affichage
 
 
