@@ -216,7 +216,7 @@ De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fi
 ### Page événements
 Les pages contenant les informations précises des événement ont pour HTTP-URI évenements/{id}. Pour le moment, les événements n'ont pas d'identifiant unique, nous avons donc utilisé le titre.
 
-![capture d'écran page événement](./image/Capture_ecran_doc_event.png)
+![capture d'écran page événement](./image/Capture_ecran_event.png)
 
 **fig 6** : Prototype de la page événement
 
