@@ -147,7 +147,8 @@ Pour le moment, la fonctionnalité de recherche n'est pas implémentée. Nous av
 ### Page du tableau d'affichage : 
 Nous avons développé la page du panneau d'affichage (cf. Fig. 4) pour qu'elle affiche une échantillon de 3 documents et un échantillon de 3 événements, au format résumé.
 
-![capture ecran page affichage générale](image/Capture_ecran_accueil)
+![capture d'écran page affichage générale](./image/Capture_ecran_accueil.png)
+
 **fig 4** : Prototype de la page d'affichage
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
@@ -165,6 +166,8 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 
 ### Page de la consultation des documents : 
 Nous avons développé la page pour consulter l'ensemble des documents (cf. Fig. 5) présent dans le fichier de données statiques. Nous avons décider de faire ça de cette façon, en attendant la fonction de recherche.
+
+![capture d'écran page consultation des documents](./image/Capture_ecran_doc_complet.png)
 
 **fig 5** : Prototype de la page des documents
 
@@ -184,6 +187,8 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 ### Page de la consultation des événements : 
 Nous avons développé la page pour consulter l'ensemble des documents (cf. Fig. 6) présent dans le fichier de données statiques. Nous avons décider de faire ça de cette façon, en attendant la fonction de recherche.
 
+![capture d'écran page consultation des événements](./image/Capture_ecran_event_complet.png)
+
 **fig 6** : Prototype de la page des événements
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
@@ -202,10 +207,18 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 ### Page document
 Les pages contenant les informations précises des document ont pour HTTP-URI documents/{id}. Nous avons utilisé pour cela l'identifiant que nous avons implémenté dans le fichier de données statiques qui correspondra au numéro ISBN relatif aux documents.
 
+![capture d'écran page document](./image/Capture_ecran_document.png)
+
+**fig 7** : Prototype de la page document
+
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 7) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
 
 ### Page événements
 Les pages contenant les informations précises des événement ont pour HTTP-URI évenements/{id}. Pour le moment, les événements n'ont pas d'identifiant unique, nous avons donc utilisé le titre.
+
+![capture d'écran page événement](./image/Capture_ecran_doc_event.png)
+
+**fig 6** : Prototype de la page événement
 
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 8) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
 
