@@ -1,14 +1,18 @@
 import data from './assets/sample_data.json'
 import { Link } from 'react-router'
 
-function Headlines(){
+function Headlines({limite}){
+  const documentsAffiches = limite
+    ? data.documents.slice(0, limite)
+    : data.documents
+
     const documentsByRow = Object.values(
-    Object.groupBy(data.documents, (x, i) => Math.floor(i/3))
+    Object.groupBy(documentsAffiches, (x, i) => Math.floor(i/3))
   )
     return (
         <main className='container'>
                 {documentsByRow.map((x, i) =>
-                    <div key={i} className="grid">
+                    <div key={i} className="grid headline">
                         {x.map((y, j) =>
               <Headline {...y} key={j} />
             )}
@@ -21,7 +25,7 @@ function Headlines(){
     
 function Headline({title, creator, type, tags, identifiant}) {
   return (
-    <div>
+    <div className='headlines'>
       <Link to={identifiant}>
         <h2>{title}</h2>
       </Link>
