@@ -13,7 +13,7 @@ const evenementsAffiches = limite
     return (
         <main className='container'>
                {evenementsByRow.map((x, i) =>
-                    <div key={i} className="grid headline">
+                    <div key={i} className="grid headlines">
                         {x.map((y, j) =>
               <Event {...y} key={j} />
             )}
@@ -25,7 +25,7 @@ const evenementsAffiches = limite
 
 function Event({title, type, issued, lieu}){
     return (
-    <div className='headlines'>
+    <div className='headline'>
       <Link to={`/evenements/${encodeURIComponent(title)}`}>
         <h2>{title}</h2>
       </Link>

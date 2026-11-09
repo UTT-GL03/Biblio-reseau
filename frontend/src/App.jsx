@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router'
-import Headlines from "./Headlines"
+import Headlines from "./affichageDocuments"
 import Documents from './Documents'
 import Evenements from './Evenements'
 import AffichageEvenements from "./affichageEvenements"
