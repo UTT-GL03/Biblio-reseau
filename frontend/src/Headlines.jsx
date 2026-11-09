@@ -12,7 +12,8 @@ function Headlines({limite}){
     return (
         <main className='container'>
                 {documentsByRow.map((x, i) =>
-                    <div key={i} className="grid headline">
+
+                    <div key={i} className="grid headlines">
                         {x.map((y, j) =>
               <Headline {...y} key={j} />
             )}
@@ -25,7 +26,9 @@ function Headlines({limite}){
     
 function Headline({title, creator, type, tags, identifiant}) {
   return (
-    <div className='headlines'>
+
+    <div className='headline'>
+
       <Link to={identifiant}>
         <h2>{title}</h2>
       </Link>

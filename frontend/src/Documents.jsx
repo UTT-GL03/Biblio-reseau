@@ -7,26 +7,23 @@ function Documents() {
     data.documents.find(x => String(x.identifiant)===id )
 
   return (
-    <main className="container">
-    <div>
-        <h2>{title}</h2>
+    <main className="container document">
+      <h2>{title}</h2>
       <p>Auteur : {creator}</p>
       <p>Type : {type}</p>
-       <div className="tags">
+      <p>Langue : {langue}</p>
+      <p className='date'>Date de parution : {issued}</p>
+      <p>Edité par : {editeur}</p>
+      <p>Disponibilité : {disponibility}</p>
+      <p>Identifiant : {identifiant}</p>
+      <div className="tags">
         {tags.map((t, i) => (
           <span className="tag" key={i}>
             {t}
           </span>
         ))}
       </div>
-     </div>
-   <p>Langue : {langue}</p>
-    <p className='date'>Date de parution : {issued}</p>
-    <p>Edité par : {editeur}</p>
-    <div className='content'>{content}</div>
-    <p>Disponibilité : {disponibility}</p>
-    <p>Identifiant : {identifiant}</p>
-
+      <div className='content'>{content}</div>
     </main>
   )
 }
