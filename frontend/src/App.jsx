@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router'
 import Headlines from "./Headlines"
 import Documents from './Documents'
 import Evenements from './Evenements'
-import AffichageEvenements from "./affichageEvenement"
+import AffichageEvenements from "./affichageEvenements"
 
 function CoupDeCoeur() {
   return (
