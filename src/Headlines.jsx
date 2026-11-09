@@ -1,4 +1,4 @@
-import data from './assets/sample_data.json'
+import data from '../assets/sample_data.json'
 import { Link } from 'react-router'
 
 function Headlines({limite}){
