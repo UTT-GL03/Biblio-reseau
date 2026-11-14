@@ -1,35 +1,46 @@
-import data from '../assets/sample_data.json'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 
-function Headlines({limite}){
-  const documentsAffiches = limite
-    ? data.documents.slice(0, limite)
-    : data.documents
+function AffichageDocuments({limite}){
 
-    const documentsByRow = Object.values(
-    Object.groupBy(documentsAffiches, (x, i) => Math.floor(i/3))
-  )
+  const [documentsByRow, setDocumentsByRow] = useState([])
+
+    useEffect(() => {
+        fetch('/sample_data.json')
+        .then(x => x.json())
+        .then(data => {
+            const documentsAffiches = limite
+              ? data.documents.slice(0, limite)
+              : data.documents
+            setDocumentsByRow(
+                Object.values(
+                    Object.groupBy(documentsAffiches, (x, i) => Math.floor(i/3))
+                )
+            )
+        })
+    }, [])
+
     return (
         <main className='container'>
                 {documentsByRow.map((x, i) =>
 
                     <div key={i} className="grid headlines">
                         {x.map((y, j) =>
-              <Headline {...y} key={j} />
+              <MiniatureDocument {...y} key={j} />
             )}
           </div>
         )}
         </main>
     ) 
 }
-    
-    
-function Headline({title, creator, type, tags, identifiant}) {
+
+
+function MiniatureDocument({title, creator, type, tags, identifiant}) {
   return (
 
     <div className='headline'>
 
-      <Link to={identifiant}>
+      <Link to={'/documents/' + identifiant}>
         <h2>{title}</h2>
       </Link>
       <p>Auteur : {creator}</p>
@@ -45,4 +56,4 @@ function Headline({title, creator, type, tags, identifiant}) {
   )
 }
 
-export default Headlines
+export default AffichageDocuments

@@ -9,7 +9,7 @@
       "type": "{{random 'livre' 'Presse' 'Musique' 'Film'}}",
       "disponibility":"{{random 'emprunté' 'disponible'}}",
       "issued": "{{date '1500-01-01' '2026-10-12' 'YYYY-MM-DD'}}",
-      "tags": [{{#repeat min=1 max=5 comma=true}}"{{lorem min=1 max=2}}"{{/repeat}}],
+      "tags": [{{#repeat min=1 max=5 comma=true}}"{{company min=1 max=2}}"{{/repeat}}],
       "content": "{{#repeat min=1 max=15 comma=false}}{{lorem min=5 max=120}}\n\n{{/repeat}}",
       "identifiant":"{{int 1000000000 9999999999}}", 
       "editeur":"{{firstName}} {{lastName}}"

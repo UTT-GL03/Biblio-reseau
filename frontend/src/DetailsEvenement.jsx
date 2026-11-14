@@ -1,13 +1,20 @@
 import { useParams, Link } from 'react-router'
-import data from '../assets/sample_data.json'
+import { useState, useEffect } from 'react'
 
-function Evenements() {
-  const { id } = useParams()
-   const titreRecherche = decodeURIComponent(id)
+function DetailsEvenement() {
+    const { id } = useParams()
+    const titreRecherche = decodeURIComponent(id)
 
-  const evenement = data.evenements.find(
-     x => x.title === titreRecherche
-  )
+    const [evenement, setEvenement] = useState({})
+
+    useEffect(() => {
+      fetch('/sample_data.json')
+        .then(x => x.json())
+        .then(data => {
+          setEvenement(data.evenements.find(x => x.title === titreRecherche))
+        })
+
+    }, [id])
 
   if (!evenement) {
     return (
@@ -34,4 +41,4 @@ function Evenements() {
   )
 }
 
-export default Evenements
+export default DetailsEvenement

@@ -1,14 +1,15 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router'
-import Headlines from "./affichageDocuments"
-import Documents from './Documents'
-import Evenements from './Evenements'
-import AffichageEvenements from "./affichageEvenements"
+
+import AffichageEvenements from './AffichageEvenements'
+import AffichageDocuments from './AffichageDocuments'
+import DetailsDocument from './DetailsDocument'
+import DetailsEvenement from './DetailsEvenement'
 
 function CoupDeCoeur() {
   return (
     <main className="container">
-      <Headlines limite={3} />
+      <AffichageDocuments limite={3} />
     </main>
   )
 }
@@ -26,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
        <header>
-        <Link to="/documents/">
+        <Link to="/documents">
          <h1>
           Tableau d'affichage
         </h1>
@@ -34,12 +35,12 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<CoupDeCoeur />} />
-        <Route path="/documents/" element={<Headlines/>} />
-        <Route path="/documents/:id" element={<Documents/>} />
+        <Route path="/documents" element={<AffichageDocuments/>} />
+        <Route path="/documents/:id" element={<DetailsDocument/>} />
       </Routes>
       
         <header>
-        <Link to="/evenements/">
+        <Link to="/evenements">
          <h1>
           Tableau d'affichage des événements
         </h1>
@@ -47,8 +48,8 @@ function App() {
       </header>
         <Routes>
           <Route path="/" element={<DernierEvent />} />
-          <Route path="/evenements/" element={<AffichageEvenements/>} />
-          <Route path="/evenements/:id" element={<Evenements/>} />
+          <Route path="/evenements" element={<AffichageEvenements/>} />
+          <Route path="/evenements/:id" element={<DetailsEvenement/>} />
         </Routes>
     </BrowserRouter>
   )

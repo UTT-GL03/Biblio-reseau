@@ -1,21 +1,32 @@
-import data from '../assets/sample_data.json'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 
 /**Affichage des événements */
 function AffichageEvenements({limite}){
-const evenementsAffiches = limite
-    ? data.evenements.slice(0, limite)
-    : data.evenements
+    
+    const [evenementsByRow, setEvenementsByRow] = useState([])
 
-  const evenementsByRow = Object.values(
-    Object.groupBy(evenementsAffiches, (x, i) => Math.floor(i/3))
-  )
+    useEffect(() => {
+        fetch('/sample_data.json')
+        .then(x => x.json())
+        .then(data => {
+            const evenementsAffiches = limite
+              ? data.evenements.slice(0, limite)
+              : data.evenements
+            setEvenementsByRow(
+                Object.values(
+                    Object.groupBy(evenementsAffiches, (x, i) => Math.floor(i/3))
+                )
+            )
+        })
+    }, [])
+    
     return (
         <main className='container'>
                {evenementsByRow.map((x, i) =>
                     <div key={i} className="grid headlines">
                         {x.map((y, j) =>
-              <Event {...y} key={j} />
+              <MiniatureEvenement {...y} key={j} />
             )}
           </div>
         )}
@@ -23,7 +34,8 @@ const evenementsAffiches = limite
     ) 
 }
 
-function Event({title, type, issued, lieu}){
+
+function MiniatureEvenement({title, type, issued, lieu}){
     return (
     <div className='headline'>
       <Link to={`/evenements/${encodeURIComponent(title)}`}>
