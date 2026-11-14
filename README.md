@@ -149,7 +149,7 @@ Nous avons développé la page du panneau d'affichage (cf. Fig. 4) pour qu'elle 
 
 ![capture d'écran page affichage générale](./image/Capture_ecran_accueil.png)
 
-**fig 4** : Prototype de la page d'affichage
+**Fig. 4 :** Prototype de la page d'affichage
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
 
@@ -162,14 +162,14 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | Mode "developpement"         |   🟩A (88.07)   |     1.24    |  67              | 31       |6299              |
 | Mode "pré-production"        |   🟩 A (94.19)  |  1.12       |  64              |    3     | 507              |
 
-**tab 4**: Évaluation de l'impact du prototype de la page d'affichage
+**Tab. 4 :** Évaluation de l'impact du prototype de la page d'affichage
 
 ### Page de la consultation des documents : 
 Nous avons développé la page pour consulter l'ensemble des documents (cf. Fig. 5) présent dans le fichier de données statiques. Nous avons décider de faire ça de cette façon, en attendant la fonction de recherche.
 
 ![capture d'écran page consultation des documents](./image/Capture_ecran_doc_complet.png)
 
-**fig 5** : Prototype de la page des documents
+**Fig. 5 :** Prototype de la page des documents
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
 
@@ -182,14 +182,14 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | Mode "developpement"         |   🟩 A (84,93)    |   1.30       |        225      |   22     |        6181       |
 | Mode "pré-production"        |   🟩 A (88,58)    |  1.23        |        222      |    3     |        507        |
 
-**tab 5**: Évaluation de l'impact du prototype de la page des documents
+**Tab. 5 :** Évaluation de l'impact du prototype de la page des documents
 
 ### Page de la consultation des événements : 
 Nous avons développé la page pour consulter l'ensemble des documents (cf. Fig. 6) présent dans le fichier de données statiques. Nous avons décider de faire ça de cette façon, en attendant la fonction de recherche.
 
 ![capture d'écran page consultation des événements](./image/Capture_ecran_event_complet.png)
 
-**fig 6** : Prototype de la page des événements
+**Fig. 6 :** Prototype de la page des événements
 
 Pour l'instant, nous avons choisi un framework de mise en page minimaliste (PicoCSS). Dans la suite du projet, nous verrons si l'impact environnemental du passage à un framework de mise en page plus puissant (comme Bootstrap) est acceptable.
 
@@ -202,25 +202,25 @@ Dans l'état actuel du prototype, il est possible d'avoir une première idée de
 | Mode "developpement"          |   🟩 A (87,13)    |   1.26       |        160      |   22    |        6181       |
 | Mode "pré-production"         |   🟩 A (89,11)    |   1.22       |        142      |   3     |        157        |
 
-**tab 6**: Évaluation de l'impact du prototype de la page des événements
+**Tab. 6 :** Évaluation de l'impact du prototype de la page des événements
 
 ### Page document
 Les pages contenant les informations précises des document ont pour HTTP-URI documents/{id}. Nous avons utilisé pour cela l'identifiant que nous avons implémenté dans le fichier de données statiques qui correspondra au numéro ISBN relatif aux documents.
 
 ![capture d'écran page document](./image/Capture_ecran_document.png)
 
-**fig 7** : Prototype de la page document
+**Fig. 7 :** Prototype de la page document
 
-De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 7) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
+De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 7) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouver un moyen pour réduire l'impact que cela engendrera. 
 
 ### Page événements
 Les pages contenant les informations précises des événement ont pour HTTP-URI évenements/{id}. Pour le moment, les événements n'ont pas d'identifiant unique, nous avons donc utilisé le titre.
 
 ![capture d'écran page événement](./image/Capture_ecran_event.png)
 
-**fig 6** : Prototype de la page événement
+**Fig. 6 :** Prototype de la page événement
 
-De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 8) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouvé un moyen pour réduire l'impact que cela engendrera. 
+De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 8) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouver un moyen pour réduire l'impact que cela engendrera. 
 
 
 |                                  | Ecoindex              | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
@@ -231,13 +231,34 @@ De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fi
 | Page d'affichage des documents      |   🟩 A (87,97)     |  1.24        |        222      |    3     |        507        |
 | Page du document choisi             |   🟩 A (95.68)     |   1.09       |        36       |    3     |        507        |
 
-**tab 7**: Évaluation de l'impact du prototype de la page d'affichage
+**Tab. 7**: Évaluation de l'impact du prototype  de la page d'affichage 
 
 
 Avec l'ajout de ce modèle de page, nous pouvons avoir un aperçu de l'impact environnemental de notre solution pour le moment, sans la partie recherche.
 Ces estimations bien qu'artificiellement basses (puisque les données sont chargées de manière statique) sont tout de même à comparer avec celles des services concurrents vues précédemment.
 
 Si nous arrivons à maintenir les émissions en dessous de 1,3 g par page pour notre produit minimum viable, nous pouvons donc espérer proposer une alternative environ 2 fois moins impactante que les services existants (en incluant pourtant la participation au cycle de vie du terminal).
+
+
+### Étape de prototypage : Données statiques chargées de manière dynamique
+
+Pour cette nouvelle version du prototype (`v1.0.1`), identique du point de vue fonctionnel, les données (toujours statiques) sont désormais chargées par le *frontend* à travers le réseau immédiatement après un premier affichage à vide. Ce comportement, plus réaliste, a pour effet plusieurs requêtes supplémentaires sur chaque page affichée.
+
+Concernant l'évaluation de l'impact environnemental du scénario, on voit une légère baisse de l’écoindex, une légère augmentation du GES, un nombre plus important de requêtes et également une augmentation de la taille de pages. 
+
+On voit cependant une légère baisse de la taille du DOM sur toutes les pages.
+
+
+|                                  | Ecoindex              | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
+| :---------------------------------: | :----------------: | :----------: | :-------------: |:--------:|:-----------------:|
+| Page d'affichage général            |   🟩 A (91,53)     |     1.17     |        67       |    7     |        188        |
+| Page d'affichage des documents      |   🟩 A (86,29)     |     1.27     |        209      |    8     |        233        |
+| Page du document choisi             |   🟩 A (93,64)     |     1.13     |        28       |    9     |        278        |
+| Page d'affichage des évènements      |   🟩 A (89,29)     |     1.27     |        156      |   13     |        458        |
+| Page l'évènement choisi             |   🟩 A (92,10)     |     1.16     |        23       |   14     |        504        |
+
+**Tab. 8 :** Évaluation de l'impact du prototype avec données chargées dynamiquement
+
 
 
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))
