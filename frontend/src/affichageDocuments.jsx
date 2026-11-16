@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router'
+import { Link } from 'react-router' 
 
 function AffichageDocuments({limite, titre=true}){
 
@@ -42,7 +42,7 @@ function MiniatureDocument({title, creator, type, tags, identifiant}) {
   return (
 
     <div className='headline'>
-
+ 
       <Link to={'/documents/' + identifiant}>
         <h3>{title}</h3>
       </Link>
