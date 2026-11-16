@@ -44,4 +44,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: EcoIndex
-          path: ConsulterLesDerniersDocuments.html
+          path: check_last_documents.html
