@@ -1,0 +1,28 @@
+# To be used with GreenIT Analysis CLI
+- name: Consulter les derniers documents
+  url: http://localhost/
+  actions:
+    - name: Consulter le tableau d'affichage des documents
+      type: click
+      element: header > main > a:nth-child(2)
+      pageChange: true
+      waitForSelector: header > main > a:nth-child(2)
+    - name: Choisir un document
+      type: click
+      element: main > div > div:nth-child(1) > div:nth-child(1) > a
+      pageChange: true
+      waitForSelector: main > .go-back
+    - name: Lire les informations du premier document
+      type: scroll
+    - name: Revenir tableau d'affichage des documents
+      type: click
+      element: header > main > a:nth-child(2)
+      pageChange: true
+      waitForSelector: header > main > a:nth-child(2)
+    - name: Choisir un autre document
+      type: click
+      element: main > div > div:nth-child(1) > div:nth-child(2) > a
+      pageChange: true
+      waitForSelector: main > .go-back
+    - name: Lire les informations du deuxième document
+      type: scroll
