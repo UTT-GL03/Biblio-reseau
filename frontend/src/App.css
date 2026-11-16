@@ -83,7 +83,12 @@ html p{
 
 
 
-/*    NOTICE BOARD RULES     */
+/*    NOTICE BOARDS RULES     */
+
+.big-list {
+  background-color: var(--bg-color);
+  border-radius: 20px;
+}
 
 .headlines {
   background-color: var(--bg-color);

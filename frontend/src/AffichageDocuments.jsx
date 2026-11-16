@@ -23,7 +23,7 @@ function AffichageDocuments({limite, titre=true}){
     return (
       <main>
         { titre? (<h1>Tableau d'affichage des documents</h1>) : ('')}
-        <div className='container'>
+        <div className='container big-list'>
                 {documentsByRow.map((x, i) =>
 
                     <div key={i} className="grid headlines">
