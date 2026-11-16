@@ -64,7 +64,7 @@ html p{
 .navigation {
   text-align: center;
   background-color: var(--tag-bg-color);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .navigation h6 {
@@ -134,5 +134,5 @@ html p{
 .content {
   text-justify: auto;
   font-size: 15px;
-  margin: 15px 0px;
+  margin: 15px 0px 25px 0px;
 }

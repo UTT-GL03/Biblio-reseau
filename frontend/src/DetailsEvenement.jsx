@@ -34,7 +34,7 @@ function DetailsEvenement() {
       <p>Date : {issued}</p>
       <p>Type : {type}</p>
       <p>Lieu : {lieu}</p>
-      <p>Description de l'événement : {description}</p>
+      <p className='content'>Description de l'événement : {description}</p>
 
       <Link to="/"  className='bouton go-back'>Retour à l'accueil</Link>
     </main>
