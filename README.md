@@ -223,13 +223,13 @@ Les pages contenant les informations précises des événement ont pour HTTP-URI
 De même que précédemment, nous avons tenté d'implémenter cette page (cf. Fig. 8) conformément à ce que prévoyait la maquette. Notons que nous n'avons pas implémenté les images mais celle-ci apparaîtrons. Nous devrons trouver un moyen pour réduire l'impact que cela engendrera. 
 
 
-|                                  | Ecoindex              | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
+|                                     | Ecoindex           | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
 | :---------------------------------: | :----------------: | :----------: | :-------------: |:--------:|:-----------------:|
-| Page d'affichage général            |   🟩 A (94.19)     |  1.12        |  64             |    3     |        507        |
-| Page d'affichage des documents      |   🟩 A (88,58)     |  1.23        |        222      |    3     |        507        |
-| Page du document choisi             |   🟩 A (95.84)     |   1.08       |        33       |    3     |        6181       |
-| Page d'affichage des documents      |   🟩 A (87,97)     |  1.24        |        222      |    3     |        507        |
-| Page du document choisi             |   🟩 A (95.68)     |   1.09       |        36       |    3     |        507        |
+| Page d'affichage général            |   🟩 A (94.19)     |    1.12      |        64       |    3     |        507        |
+| Page d'affichage des documents      |   🟩 A (88,58)     |    1.23      |        222      |    3     |        507        |
+| Page du document choisi             |   🟩 A (95.84)     |    1.08      |        33       |    3     |        6181       |
+| Page d'affichage des documents      |   🟩 A (87,97)     |    1.24      |        222      |    3     |        507        |
+| Page du document choisi             |   🟩 A (95.68)     |    1.09      |        36       |    3     |        507        |
 
 **Tab. 7**: Évaluation de l'impact du prototype  de la page d'affichage 
 
@@ -244,17 +244,17 @@ Si nous arrivons à maintenir les émissions en dessous de 1,3 g par page pour n
 
 Pour cette nouvelle version du prototype (`v1.0.1`), identique du point de vue fonctionnel, les données (toujours statiques) sont désormais chargées par le *frontend* à travers le réseau immédiatement après un premier affichage à vide. Ce comportement, plus réaliste, a pour effet plusieurs requêtes supplémentaires sur chaque page affichée.
 
-Concernant l'évaluation de l'impact environnemental du scénario, on voit une légère baisse de l’écoindex, une légère augmentation du GES, un nombre plus important de requêtes et également une augmentation de la taille de pages. 
+Concernant l'évaluation de l'impact environnemental du scénario, on constate un nombre plus important de requêtes dû à la nouvelle façon de charger les données. 
 
-On voit cependant une légère baisse de la taille du DOM sur toutes les pages.
+On voit également des changements minimes des autres variables, qui sont dûs à une regénération des données chargées, qui sont maintenant moins nombreuses mais plus larges. 
 
 
-|                                  | Ecoindex              | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
+|                                     | Ecoindex           | GES (gC02e)  |  Taille du DOM  | Requêtes | Taille de la page |
 | :---------------------------------: | :----------------: | :----------: | :-------------: |:--------:|:-----------------:|
 | Page d'affichage général            |   🟩 A (91,53)     |     1.17     |        67       |    7     |        188        |
 | Page d'affichage des documents      |   🟩 A (86,29)     |     1.27     |        209      |    8     |        233        |
 | Page du document choisi             |   🟩 A (93,64)     |     1.13     |        28       |    9     |        278        |
-| Page d'affichage des évènements      |   🟩 A (89,29)     |     1.27     |        156      |   13     |        458        |
+| Page d'affichage des évènements     |   🟩 A (89,29)     |     1.27     |        156      |   13     |        458        |
 | Page l'évènement choisi             |   🟩 A (92,10)     |     1.16     |        23       |   14     |        504        |
 
 **Tab. 8 :** Évaluation de l'impact du prototype avec données chargées dynamiquement
