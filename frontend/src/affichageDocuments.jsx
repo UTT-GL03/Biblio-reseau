@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 
-function AffichageDocuments({limite}){
+function AffichageDocuments({limite, titre=true}){
 
   const [documentsByRow, setDocumentsByRow] = useState([])
 
@@ -21,7 +21,9 @@ function AffichageDocuments({limite}){
     }, [])
 
     return (
-        <main className='container'>
+      <main>
+        { titre? (<h1>Tableau d'affichage des documents</h1>) : ('')}
+        <div className='container'>
                 {documentsByRow.map((x, i) =>
 
                     <div key={i} className="grid headlines">
@@ -30,6 +32,7 @@ function AffichageDocuments({limite}){
             )}
           </div>
         )}
+        </div>
         </main>
     ) 
 }
@@ -41,7 +44,7 @@ function MiniatureDocument({title, creator, type, tags, identifiant}) {
     <div className='headline'>
 
       <Link to={'/documents/' + identifiant}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </Link>
       <p>Auteur : {creator}</p>
       <p>Type : {type}</p>

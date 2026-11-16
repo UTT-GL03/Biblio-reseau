@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 
 /**Affichage des événements */
-function AffichageEvenements({limite}){
+function AffichageEvenements({limite, titre=true}){
     
     const [evenementsByRow, setEvenementsByRow] = useState([])
 
@@ -22,14 +22,18 @@ function AffichageEvenements({limite}){
     }, [])
     
     return (
-        <main className='container'>
-               {evenementsByRow.map((x, i) =>
+      <main>
+        { titre? (<h1>Tableau d'affichage des évènements</h1>) : ('')}
+        <div className='container'>
+                {evenementsByRow.map((x, i) =>
+
                     <div key={i} className="grid headlines">
                         {x.map((y, j) =>
               <MiniatureEvenement {...y} key={j} />
             )}
           </div>
         )}
+        </div>
         </main>
     ) 
 }
@@ -39,7 +43,7 @@ function MiniatureEvenement({title, type, issued, lieu}){
     return (
     <div className='headline'>
       <Link to={`/evenements/${encodeURIComponent(title)}`}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </Link>
       <p>Type : {type}</p>
        <p>Date : {issued}</p>

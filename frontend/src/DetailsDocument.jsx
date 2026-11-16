@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+import { useParams, Link } from 'react-router'
 import { useState, useEffect } from 'react'
 
 function DetailsDocument() {
@@ -20,7 +20,7 @@ function DetailsDocument() {
 
   	return (
 		<main className="container document">
-		<h2>{title}</h2>
+		<h3>{title}</h3>
 		<p>Auteur : {creator}</p>
 		<p>Type : {type}</p>
 		<p>Langue : {langue}</p>
@@ -36,6 +36,8 @@ function DetailsDocument() {
 			))}
 		</div>
 		<div className='content'>{content}</div>
+
+      	<Link to="/" className='bouton go-back'>Retour à l'accueil</Link>
 		</main>	
   	)
 }

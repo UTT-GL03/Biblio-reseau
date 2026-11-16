@@ -3,6 +3,8 @@
 :root {
   --bg-color: #c7cbff;
   --tag-bg-color: hsl(237, 100%, 96%);
+  --button-color: #51558a;
+  --button-hover-color: #62669a;
 }
 
 body {
@@ -20,7 +22,12 @@ a:hover {
 
 h1 {
   text-align: center;
-  padding: 30px;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
 }
 
 html p{
@@ -36,6 +43,44 @@ html p{
   border-radius: 16px;
   font-size: smaller;
 }
+
+.bouton {
+  border-radius: 10px;
+  background-color: var(--button-color);
+  color: white;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+
+.bouton:hover {
+  text-decoration: none;
+  background-color: var(--button-hover-color);
+}
+
+
+
+/*   NAVIGATION RULES     */
+.navigation {
+  text-align: center;
+  background-color: var(--tag-bg-color);
+  margin-bottom: 20px;
+}
+
+.navigation h6 {
+  color: var(--pico-h1-color);
+}
+
+.navigation a {
+  padding-top: 15px;
+  text-decoration: none;
+  background-color: var(--tag-bg-color);
+}
+
+.navigation a:hover {
+  background-color: var(--bg-color);
+}
+
 
 
 /*    NOTICE BOARD RULES     */
@@ -55,7 +100,7 @@ html p{
   border-radius: 15px;
 }
 
-.headline h2 {
+.headline h3 {
   font-size: 17px;
 }
 
@@ -82,7 +127,7 @@ html p{
 
 /*    DOCUMENT RULES     */
 
-.document h2 {
+.document h3 {
   font-size: 25px;
 }
 

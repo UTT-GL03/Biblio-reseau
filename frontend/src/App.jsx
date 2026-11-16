@@ -8,8 +8,16 @@ import DetailsEvenement from './DetailsEvenement'
 
 function CoupDeCoeur() {
   return (
-    <main className="container">
-      <AffichageDocuments limite={3} />
+    <main>
+      <h1>Tableau d'affichage</h1>
+    <div className="container">
+        <Link to="/documents">
+         <h2>
+          Nos derniers documents
+        </h2>
+        </Link>
+      <AffichageDocuments limite={3} titre={false} />
+      </div>
     </main>
   )
 }
@@ -17,7 +25,34 @@ function CoupDeCoeur() {
 function DernierEvent() {
   return (
     <main className="container">
-      <AffichageEvenements limite={3} />
+        <Link to="/evenements">
+         <h2>
+          Nos derniers évènements
+        </h2>
+        </Link>
+      <AffichageEvenements limite={3} titre={false} />
+    </main>
+  )
+}
+
+function Navigation() {
+  return (
+    <main className='grid center navigation'>
+      <Link to="/">
+         <h6>
+          Tableau d'affichage
+        </h6>
+        </Link>
+      <Link to="/documents">
+         <h6>
+          Documents
+        </h6>
+        </Link>
+        <Link to="/evenements">
+         <h6>
+          Évènements
+        </h6>
+        </Link>
     </main>
   )
 }
@@ -26,26 +61,14 @@ function App() {
 
   return (
     <BrowserRouter>
-       <header>
-        <Link to="/documents">
-         <h1>
-          Tableau d'affichage
-        </h1>
-        </Link>
-      </header>
-      <Routes>
-        <Route path="/" element={<CoupDeCoeur />} />
-        <Route path="/documents" element={<AffichageDocuments/>} />
-        <Route path="/documents/:id" element={<DetailsDocument/>} />
-      </Routes>
+      <header><Navigation /></header>
+       
+        <Routes>
+          <Route path="/" element={<CoupDeCoeur />} />
+          <Route path="/documents" element={<AffichageDocuments/>} />
+          <Route path="/documents/:id" element={<DetailsDocument/>} />
+        </Routes>
       
-        <header>
-        <Link to="/evenements">
-         <h1>
-          Tableau d'affichage des événements
-        </h1>
-        </Link>
-      </header>
         <Routes>
           <Route path="/" element={<DernierEvent />} />
           <Route path="/evenements" element={<AffichageEvenements/>} />

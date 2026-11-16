@@ -19,7 +19,7 @@ function DetailsEvenement() {
   if (!evenement) {
     return (
       <main className="container">
-        <h2>Événement introuvable</h2>
+        <h3>Événement introuvable</h3>
         <Link to="/">Retour à l'accueil</Link>
       </main>
     )
@@ -29,14 +29,14 @@ function DetailsEvenement() {
 
   return (
     <main className="container">
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <p>Créateur : {creator}</p>
       <p>Date : {issued}</p>
       <p>Type : {type}</p>
       <p>Lieu : {lieu}</p>
       <p>Description de l'événement : {description}</p>
 
-      <Link to="/">Retour à l'accueil</Link>
+      <Link to="/"  className='bouton go-back'>Retour à l'accueil</Link>
     </main>
   )
 }
