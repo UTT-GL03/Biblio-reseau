@@ -268,10 +268,11 @@ Dans le cas qui nous occupe, l'augmentation de la quantité des données à trai
 Le volume de documents d'une bibliothèque augmente d'environ 10% chaque année.
 En partant du principe qu'un évènement passé disparaita près 1 an, le volume d'évènements devrait augmenter au cours de la première année puis se stabiliser.
 
-Nous devrions donc avoir autour de 200 évènements (environ 3/mois pour 5 médiathèques) et XX documents au total (selon les sites des médiathèques de Troyes (À SOURCER)) (110 000 à la médiathèque Jacques Chirac, )
+Nous devrions donc avoir environ 50 évènements (~4/mois) et 110 000 documents au total pour une médiathèque[^4].
 
 Nous aurons également à gérer les comptes des utilisateurs pour qu'ils puissent emprunter des documents ou participer à des évènements. Il faudra enregistrer ces données (participation et emprunt) jusqu'à leur fin (jour après lévènement, fin de l'emprunt) mais il n'est pas nécessaire de les garder pendant longtemps. Le nombre d'utilisateurs dépendra du nombre de personnes possédant une carte de bibliothèque, un nombre qui augmente de manière régulière sur une année (environ 10% par an).
 
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))
 [^2]: Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net))
 [^3]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
+[^4]: Selon le site de la médiathèque Jaques Chirac (source : [Aube en Champagne](https://www.aube-champagne.com/fr/poi/mediatheque-jacques-chirac/))

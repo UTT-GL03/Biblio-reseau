@@ -1,6 +1,6 @@
 {
   "documents": [
-    {{#repeat min=20 max=30}}
+    {{#repeat 110000}}
     {
       "image": "{{random 'image1.png' 'image2.png' 'image3.png' 'image4.png'}}",
       "title": "{{lorem min=1 max=20}}",
@@ -17,7 +17,7 @@
     {{/repeat}}
   ],
   "evenements": [
-    {{#repeat min=20 max=30}}
+    {{#repeat 50}}
     {
       "title": "{{lorem min=1 max=20}}",
       "creator": "{{firstName}} {{lastName}}",
