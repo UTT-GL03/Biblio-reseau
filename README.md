@@ -272,6 +272,26 @@ Nous devrions donc avoir environ 50 évènements (~4/mois) et 110 000 documents 
 
 Nous aurons également à gérer les comptes des utilisateurs pour qu'ils puissent emprunter des documents ou participer à des évènements. Il faudra enregistrer ces données (participation et emprunt) jusqu'à leur fin (jour après lévènement, fin de l'emprunt) mais il n'est pas nécessaire de les garder pendant longtemps. Le nombre d'utilisateurs dépendra du nombre de personnes possédant une carte de bibliothèque, un nombre qui augmente de manière régulière sur une année (environ 10% par an).
 
+
+### Évolution de l'EcoIndex lors du passage à l'échelle
+
+Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19211909192/artifacts/4512754147) et [après](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19224015758/artifacts/4516341581) la simulation du passage à l'échelle retraduisent bien (cf. Tab.6) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
+
+|                                         | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
+|-----------------------------------------|--------:|------------:|--------------:|---------:|---------------------:
+| 1. Consulter les titres 					   | <del>81 A 🟦</del><br/>29 E 🟥 | <del>1,4</del><br/>2,4 | <del>198</del><br/>19 014 | 6 | <del>446</del><br/>11 400
+| 2. Choisir et lire un article 			   | <del>90 A 🟦</del><br/>76 B 🟩 | <del>1,1</del><br/>1,5 | 30 | 2 | <del>115</del><br/>10 800
+| 3. Revenir aux titres et les consulter	| <del>83 A 🟦</del><br/>30 E 🟥 | <del>1,3</del><br/>2,4 | <del>198</del><br/>19 014 | 2 | <del>115</del><br/>10 800
+| 4. Choisir et lire un autre article 		| <del>90 A 🟦</del><br/>76 B 🟩 |  <del>1,2</del><br/>1,5 | 26 | 2 | <del>115</del><br/>10 800
+
+**Tab.7**: Effet du passage à l'échelle sur l'impact du scénario "Lire des articles parmi les articles du jour" dans le prototype v1.0.1.
+
+On remarque que l'augmentation de l'impact est très visible sur les pages qui listent l'ensemble des documents. Cela s'explique par le nombre d'information affiché est énorme comparé a l'impact de quelques documents.
+L'EcoIndex vise à évaluer un impact global, incluant une part de la fabrication et de la fin de vie des terminaux, et que cette part augmente avec le nombre d'éléments de la page.
+Pour évaluer plus précisément l'impact de la consultation elle-même nous utiliserons un autre outil de mesure : GreenFrame.
+
+
+
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))
 [^2]: Basé sur le coût total employeur du salaire médian 2026 soit 3507€ environ (source : [URSSAF](https://mon-entreprise.urssaf.fr/simulateurs/salaire-brut-net))
 [^3]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-91691+COM-91114+COM-91201+COM-91421+COM-91191+COM-91097+COM-91215+COM-91514+COM-91657))
