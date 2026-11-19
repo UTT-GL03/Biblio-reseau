@@ -275,7 +275,7 @@ Nous aurons également à gérer les comptes des utilisateurs pour qu'ils puisse
 
 ### Évolution de l'EcoIndex lors du passage à l'échelle
 
-Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/Biblio-reseau/actions/runs/44335948706/artifacts/14440679226) et [après](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19224015758/artifacts/4516341581) la simulation du passage à l'échelle retraduisent bien (cf. Tab.6) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
+Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/Biblio-reseau/actions/runs/44335948706/artifacts/14440679226) et [après](https://github.com/UTT-GL03/Biblio-reseau/actions/runs/44412303432/artifacts/14487757151) la simulation du passage à l'échelle retraduisent bien (cf. Tab.6) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
 
 |                                           | EcoIndex                        | GES (gCO2e)            | Taille du DOM              | Requêtes | Taille de la page (ko)
 |-------------------------------------------|--------------------------------:|-----------------------:|---------------------------:|---------:|---------------------:
