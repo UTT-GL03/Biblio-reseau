@@ -275,16 +275,16 @@ Nous aurons également à gérer les comptes des utilisateurs pour qu'ils puisse
 
 ### Évolution de l'EcoIndex lors du passage à l'échelle
 
-Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19211909192/artifacts/4512754147) et [après](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19224015758/artifacts/4516341581) la simulation du passage à l'échelle retraduisent bien (cf. Tab.6) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
+Produites désormais de manière automatique lors de l'intégration continue, les mesures nécessaires à la production de l'EcoIndex, [avant](https://github.com/UTT-GL03/Biblio-reseau/actions/runs/44335948706/artifacts/14440679226) et [après](https://github.com/UTT-GL03/QVOTIDIE/actions/runs/19224015758/artifacts/4516341581) la simulation du passage à l'échelle retraduisent bien (cf. Tab.6) l'augmentation du poids des téléchargements, mais aussi de l'augmentation du nombre d'éléments de la page des titres.
 
-|                                         | EcoIndex| GES (gCO2e) | Taille du DOM | Requêtes | Taille de la page (ko)
-|-----------------------------------------|--------:|------------:|--------------:|---------:|---------------------:
-| 1. Consulter les titres 					   | <del>81 A 🟦</del><br/>29 E 🟥 | <del>1,4</del><br/>2,4 | <del>198</del><br/>19 014 | 6 | <del>446</del><br/>11 400
-| 2. Choisir et lire un article 			   | <del>90 A 🟦</del><br/>76 B 🟩 | <del>1,1</del><br/>1,5 | 30 | 2 | <del>115</del><br/>10 800
-| 3. Revenir aux titres et les consulter	| <del>83 A 🟦</del><br/>30 E 🟥 | <del>1,3</del><br/>2,4 | <del>198</del><br/>19 014 | 2 | <del>115</del><br/>10 800
-| 4. Choisir et lire un autre article 		| <del>90 A 🟦</del><br/>76 B 🟩 |  <del>1,2</del><br/>1,5 | 26 | 2 | <del>115</del><br/>10 800
+|                                           | EcoIndex                        | GES (gCO2e)            | Taille du DOM              | Requêtes | Taille de la page (ko)
+|-------------------------------------------|--------------------------------:|-----------------------:|---------------------------:|---------:|---------------------:
+| 1. Consulter les documents 					      | <del>86 A 🟦</del><br/>27 E 🟥 | <del>1,3</del><br/>2,4 | <del>112</del><br/>333 993 | 2        | <del>236</del><br/>	380 489
+| 2. Choisir et lire un document			      | <del>90 A 🟦</del><br/>75 B 🟩 | <del>1,3</del><br/>1,5 | 30                         | 2        | <del>236</del><br/> 380 489
+| 3. Revenir aux documents et les consulter	| <del>85 A 🟦</del><br/>45 D 🟥 | <del>1,3</del><br/>2,1 | <del>112</del><br/>933 693 | 2        | <del>236</del><br/>	380 489
+| 4. Choisir et lire un autre document 		  | <del>90 A 🟦</del><br/>76 B 🟩 |  <del>1,2</del><br/>1,5 | 30                        | 2        | <del>	236</del><br/> 380 489
 
-**Tab.7**: Effet du passage à l'échelle sur l'impact du scénario "Lire des articles parmi les articles du jour" dans le prototype v1.0.1.
+**Tab.9**: Effet du passage à l'échelle sur l'impact du scénario "Lire des articles parmi les articles du jour" dans le prototype v1.0.1.
 
 On remarque que l'augmentation de l'impact est très visible sur les pages qui listent l'ensemble des documents. Cela s'explique par le nombre d'information affiché est énorme comparé a l'impact de quelques documents.
 L'EcoIndex vise à évaluer un impact global, incluant une part de la fabrication et de la fin de vie des terminaux, et que cette part augmente avec le nombre d'éléments de la page.
