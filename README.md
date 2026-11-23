@@ -268,7 +268,7 @@ Dans le cas qui nous occupe, l'augmentation de la quantité des données à trai
 Le volume de documents d'une bibliothèque augmente d'environ 10% chaque année.
 En partant du principe qu'un évènement passé disparaita près 1 an, le volume d'évènements devrait augmenter au cours de la première année puis se stabiliser.
 
-Nous devrions donc avoir environ 50 évènements (~4/mois) et 110 000 documents au total pour une médiathèque[^4]. Cependant, pour des raisons techniques, nos tests seront limités à un maximum 99 999 documents.
+Nous devrions donc avoir environ 50 évènements (~4/mois) et 110 000 documents au total pour une médiathèque[^4]. Cependant, pour des raisons techniques, nos tests seront limités à un maximum 5 000 documents.
 
 Nous aurons également à gérer les comptes des utilisateurs pour qu'ils puissent emprunter des documents ou participer à des évènements. Il faudra enregistrer ces données (participation et emprunt) jusqu'à leur fin (jour après lévènement, fin de l'emprunt) mais il n'est pas nécessaire de les garder pendant longtemps. Le nombre d'utilisateurs dépendra du nombre de personnes possédant une carte de bibliothèque, un nombre qui augmente de manière régulière sur une année (environ 10% par an).
 

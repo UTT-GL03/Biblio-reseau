@@ -24,7 +24,7 @@ function AffichageEvenements({limite, titre=true}){
     return (
       <main>
         { titre? (<h1>Tableau d'affichage des évènements</h1>) : ('')}
-        <div className='container'>
+        <div className='container big-list'>
                 {evenementsByRow.map((x, i) =>
 
                     <div key={i} className="grid headlines">
