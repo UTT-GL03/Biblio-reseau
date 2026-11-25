@@ -8,10 +8,10 @@ function DetailsEvenement() {
     const [evenement, setEvenement] = useState({})
 
     useEffect(() => {
-      fetch('/sample_data.json')
+      fetch(`http://localhost:5984/biblio-reseau/${id}`)
         .then(x => x.json())
         .then(data => {
-          setEvenement(data.evenements.find(x => x.title === titreRecherche))
+          setEvenement(data)
         })
 
     }, [id])
@@ -25,14 +25,13 @@ function DetailsEvenement() {
     )
   }
 
-  const { title, creator, issued, type, lieu, description } = evenement
+  const { title, creator, issued, lieu, description } = evenement
 
   return (
     <main className="container">
       <h3>{title}</h3>
       <p>Créateur : {creator}</p>
       <p>Date : {issued}</p>
-      <p>Type : {type}</p>
       <p>Lieu : {lieu}</p>
       <p className='content'>Description de l'événement : {description}</p>
 

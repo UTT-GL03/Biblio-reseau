@@ -1,0 +1,12 @@
+baseURL: http://localhost
+projectName: Biblio-reseau
+scenarios:
+  - name: Consulter le tableau d'affichage
+    path: ./scenarios/consult_board.js
+  - name: Consulter le tableau d'affichage des documents
+    path: ./scenarios/consult_document_board.js
+  - name: Consulter un document
+    path: ./scenarios/consult_document.js
+containers:
+  - biblio-reseau-static_hosting-1
+  - qvotidie-backend-1

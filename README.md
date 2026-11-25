@@ -290,6 +290,49 @@ On remarque que l'augmentation de l'impact est très visible sur les pages qui l
 L'EcoIndex vise à évaluer un impact global, incluant une part de la fabrication et de la fin de vie des terminaux, et que cette part augmente avec le nombre d'éléments de la page.
 Pour évaluer plus précisément l'impact de la consultation elle-même nous utiliserons un autre outil de mesure : GreenFrame.
 
+### Mesure de la consommation énergétique liée à la consultation
+
+Le logiciel GreenFrame est capable d'estimer, pour les différents composants de l'architecture, la consommation énergétique :
+
+- du CPU (à partir du temps de calcul),
+- de la mémoire vive (à partir de la taille des données mémorisées),
+- du disque (à partir de la taille des données lues et écrites),
+- du réseau (à partir de la taille des données reçues et envoyées),
+- pour le navigateur uniquement, de l'écran (à partir du temps d'exécution du scénario).
+
+ (a)                 | cpu (Wh)   | mem (Wh)   | disk (Wh) | network (Wh)  | screen (Wh) | total (Wh) |
+| ------------------ | ---------- | ---------- | --------- | ------------- | ----------- | ---------- | 
+| Navigateur         | 0.0011     | 0.000083   | 0.0       | 0.21          | 0.069       | 0.28       |
+| Serveur Web        | 0.000027   | 0.000017   | 0.0       | 0.22          | 0.0         | 0.22       |
+
+| (b)                | cpu (Wh)   | mem (Wh)   | disk (Wh) | network (Wh)  | screen (Wh) | total (Wh) |
+| ------------------ | ---------- | ---------- | --------- | ------------- | ----------- | ---------- | 
+| Navigateur         | 0.00082    |  0.000066  |  0.0      | 0.11          | 0.068       |  0.18      |
+| Serveur Web        | 0.000020   |  0.000017  |  0.0      | 0.11          | 0.0         |  0.11      |
+
+| (c)                | cpu (Wh)   | mem (Wh)   | disk (Wh) | network (Wh)  | screen (Wh) | total (Wh) |
+| ------------------ | ---------- | ---------- | --------- | ------------- | ----------- | ---------- | 
+| Navigateur         | 0.00089    |  0.000071  |  0.0      | 0.11          | 0.068       |  0.18      |
+| Serveur Web        | 0.0000029  |  0.000017  |  0.0      | 0.11          | 0.0         |  0.11      |
+
+**Tab. 10 :** Estimation de la consommation énergétique de la consultation du tableau d'affichage (premier tableau), du tableau d'affichage des articles (deuxième tableau) et d'un document (troisième tableau).
+
+Par rapport à ce que pouvait laisser penser l'EcoIndex, les résultats (cf. Tab. 10) indiquent que la consommation due à la consultation de l'affichage des documents (avec ses 5000 documents) est équivalente à celle du tableau d'affichage. Autrement dit, l'affichage en lui même de ces données en grand nombre est négligeable par rapport à la transmission de ces données sur le réseau.
+
+Par contre, l'affichage de ces données a bien un impact indirect : en augmentant le temps de lecture, il a un effet déterminant sur le temps d'éclairage de l'écran. 
+De fait, les trois éléments ayant le plus d'impact (à peu près à égalité, le reste étant négligeable), sont ici : 
+
+- l'écran du client,
+- le réseau du client,
+- le réseau du serveur.
+
+
+
+
+
+
+
+
 
 
 [^1]: Selon les chiffres de population de 2023 (source : [INSEE](https://www.insee.fr/fr/statistiques/1405599?geo=COM-10387+COM-10060+COM-10321+COM-10081+COM-10297+COM-10340+COM-10362+COM-10067+COM-10333+COM-10343+COM-10357))

@@ -1,0 +1,30 @@
+
+description: Once done, the application is ready on `localhost:80`.
+
+runs:
+  using: composite
+  steps:
+    - name: Get frontend build
+      uses: actions/download-artifact@v4
+      with:
+        name: frontend-build
+        path: frontend/dist
+    - name: Start containers
+      run: |
+        export COUCHDB_USER="Pomme"
+        export COUCHDB_PASSWORD="Pomme"
+        docker compose up --detach
+      shell: bash
+    - name: Wait for frontend
+      uses: docker://benel/wait-for-response:1
+      with:
+        args: http://localhost/ 200 30000 500
+
+    - name: Get samples
+      uses: actions/download-artifact@v4
+      with:
+        name: samples
+    - name: Upload samples
+      run: |
+        curl -X POST http://localhost:5984/biblio-reseau/_bulk_docs -H "Content-Type: application/json" -d @sample_data.json
+      shell: bash

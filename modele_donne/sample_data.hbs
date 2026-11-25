@@ -1,28 +1,28 @@
 {
-  "documents": [
+  "docs": [
     {{#repeat 5000}}
     {
+      "objectType": "document",
       "image": "{{random 'image1.png' 'image2.png' 'image3.png' 'image4.png'}}",
       "title": "{{lorem min=1 max=20}}",
       "creator": "{{firstName}} {{lastName}}",
-      "langue":"{{random 'français' 'anglais' 'Espagnol' 'portugais' 'russe' 'grec' 'italien' 'queshua'}}",
-      "type": "{{random 'livre' 'Presse' 'Musique' 'Film'}}",
-      "disponibility":"{{random 'emprunté' 'disponible'}}",
+      "langue":"{{random 'Français' 'Anglais' 'Espagnol' 'Portugais' 'Russe' 'Grec' 'Italien' 'Queshua'}}",
+      "type": "{{random 'Livre' 'Presse' 'Musique' 'Film'}}",
+      "disponibility":"{{random 'Emprunté' 'Disponible'}}",
       "issued": "{{date '1500-01-01' '2026-10-12' 'YYYY-MM-DD'}}",
       "tags": [{{#repeat min=1 max=5 comma=true}}"{{company min=1 max=2}}"{{/repeat}}],
       "content": "{{#repeat min=1 max=15 comma=false}}{{lorem min=5 max=120}}\n\n{{/repeat}}",
       "identifiant":"{{int 1000000000 9999999999}}", 
       "editeur":"{{firstName}} {{lastName}}"
     }
-    {{/repeat}}
-  ],
-  "evenements": [
+    {{/repeat}},
     {{#repeat 50}}
     {
+      "objectType": "evenement",
       "title": "{{lorem min=1 max=20}}",
       "creator": "{{firstName}} {{lastName}}",
       "issued": "{{date '2026-10-12' '2026-12-31' 'YYYY-MM-DD hh:mm'}}",
-      "lieu": "{{random 'Troyes' 'Saint André les Vergers' 'Rosière-près-troyes' 'Saint Part en tertre' 'Saint sulpice' 'Sainte Savine' 'Saint Julien les Villas'}}",
+      "lieu": "{{random 'Troyes' 'Bréviandes' 'La Rivière-de-Corps' 'La Chapelle Saint-Luc' 'Pont-Sainte-Marie' 'Buchères' 'Saint-André-les-Vergers' 'Saint-Parres-aux-Tertres' 'Saint-Germain' 'Sainte-Savine' 'Saint-Julien-Les-Villas'}}",
       "description": "{{#repeat min=1 max=15 comma=false}}{{lorem min=5 max=120}}\n\n{{/repeat}}",
       "image": "{{random 'image1.png' 'image2.png' 'image3.png' 'image4.png'}}"
     }

@@ -6,17 +6,15 @@ function DetailsDocument() {
     const [document, setDocument] = useState({tags : []})
 
     useEffect(() => {
-      fetch('/sample_data.json')
+      fetch(`http://localhost:5984/biblio-reseau/${id}`)
         .then(x => x.json())
         .then(data => {
-          setDocument(data.documents.find(x => String(x.identifiant)===id))
+          setDocument(data)
         })
 
     }, [id])
 
   	const {title, creator, issued, content, editeur, disponibility, identifiant, type, tags, langue} = document
-
-	console.log()
 
   	return (
 		<main className="container document">
@@ -29,11 +27,11 @@ function DetailsDocument() {
 		<p>Disponibilité : {disponibility}</p>
 		<p>Identifiant : {identifiant}</p>
 		<div className="tags">
-			{tags.map((t, i) => (
+			{tags ? tags.map((t, i) => (
 			<span className="tag" key={i}>
 				{t}
 			</span>
-			))}
+			)) : ""}
 		</div>
 		<div className='content'>{content}</div>
 

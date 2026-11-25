@@ -1,18 +1,18 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router'
 
-/**Affichage des événements */
 function AffichageEvenements({limite, titre=true}){
     
     const [evenementsByRow, setEvenementsByRow] = useState([])
 
     useEffect(() => {
-        fetch('/sample_data.json')
+        fetch('http://localhost:5984/biblio-reseau/_all_docs?include_docs=true')
         .then(x => x.json())
         .then(data => {
+            const evenements = data.rows.filter(x => x.doc.objectType == "evenement")
             const evenementsAffiches = limite
-              ? data.evenements.slice(0, limite)
-              : data.evenements
+              ? evenements.slice(0, limite)
+              : evenements
             setEvenementsByRow(
                 Object.values(
                     Object.groupBy(evenementsAffiches, (x, i) => Math.floor(i/3))
@@ -28,8 +28,8 @@ function AffichageEvenements({limite, titre=true}){
                 {evenementsByRow.map((x, i) =>
 
                     <div key={i} className="grid headlines">
-                        {x.map((y, j) =>
-              <MiniatureEvenement {...y} key={j} />
+                        {x.map(({doc}, j) =>
+              <MiniatureEvenement {...doc} key={j} />
             )}
           </div>
         )}
@@ -39,13 +39,12 @@ function AffichageEvenements({limite, titre=true}){
 }
 
 
-function MiniatureEvenement({title, type, issued, lieu}){
+function MiniatureEvenement({title, issued, lieu, _id}){
     return (
     <div className='headline'>
-      <Link to={`/evenements/${encodeURIComponent(title)}`}>
+      <Link to={'/evenements/' + _id}>
         <h3>{title}</h3>
       </Link>
-      <p>Type : {type}</p>
        <p>Date : {issued}</p>
        <p>Lieu : {lieu}</p>
     </div>
